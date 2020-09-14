@@ -9,7 +9,7 @@ permalink: /workshops/
   1.1 [Wget for Webpage Data](#wget)  
   1.2 [TWARC for Twitter Data](#twarc)  
   1.3 [Instagram-Scraper for Instagram Data](#instagram)  
-2. [Analyze](#analysis)
+2. [Analyze](#analyze)
 3. [Publish](#publish)  
   3.1 [Game Design with Unity](#unity)  
 
@@ -24,7 +24,7 @@ Coming soon...
 ### 1.3 Instagram-Scraper for Instagram Data<a name="instagram"></a>  
 Coming soon...
 
-## 2. Analyze <a name="analysis"></a>  
+## 2. Analyze <a name="analyze"></a>  
 Coming soon...  
 
 ## 3. Publish <a name="publish"></a>  
