@@ -3,7 +3,7 @@ layout: page
 title: Contributors
 permalink: /contributors/
 ---
-[Mary Beth Atkinson Lu](mailto:mary.atkinson@utoronto.ca)  
+[Mary Atkinson](mailto:mary.atkinson@utoronto.ca)  
 Digital Scholarship Technician
 
 [Nelly Cancilla](mailto:daniela.cancilla@utoronto.ca)  
