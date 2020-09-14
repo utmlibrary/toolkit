@@ -33,7 +33,6 @@ plugins:
 
 # Navigation
 header_pages:
-  - about.markdown
   - workshops.markdown
   - contributors.markdown
 
