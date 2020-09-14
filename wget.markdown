@@ -19,7 +19,7 @@ permalink: /workshops/wget/
     4.2 [Retrieve a Webpage or File](#exercise1)  
     4.3 [Retrieve Multiple Files from a Website](#exercise2)  
     4.4 [Mirror a Website](#exercise3)
-5. [Conclusion](#conclusion)
+5. [Final Thoughts](#final)
 
 Workshop by [Chris Young](mailto:christopher.young@utoronto.ca)
 
@@ -302,6 +302,6 @@ The command for mirroring *The Medium* website is:
 
 As in the previous exercise, the download will be very slow, but The Medium website will be perfectly mirrored when complete showing all of the sub-directories. It is difficult to gauge how long this will take, but mirroring websites can sometimes take hours, even days depending on how much web content is on the website. This is especially the case for websites with audio-visual material.
 
-## 5. Conclusion <a name="conclusion"></a>
+## 5. Final Thoughts <a name="final"></a>
 
 As you become increasingly comfortable with the command line, you will find wget a helpful addition to your digital research toolkit. If there is an entire set of archival documents that you want to download for text mining, if they’re arranged in a directory and are all together (which is not as common as one might think), a quick wget command will be quicker than scraping the links with Python. Similarly, you can then begin downloading things directly from your command line: programs, files, backups, etc. You will soon find that wget may be a first option for you to research all kinds of web content!
