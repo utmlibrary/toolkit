@@ -5,10 +5,20 @@ permalink: /workshops/twarc/
 ---
 ## Table of Contents
 
-1. About
-2. Resources
-3. Setup
-4. Workshops
+1. About  
+2. Resources  
+  2.1 Tutorials  
+  2.2 Ethics  
+  2.3 Copyright  
+3. Setup  
+  3.1 Linux Instructions  
+  3.2 Windows Instructions  
+  3.3 OS X Instructions  
+4. Workshop  
+  4.1 Configuration  
+  4.2 Warm-Up  
+  4.3 Gather by Term and Hashtag  
+  4.4 Gather by Twitter Account  
 5. Conclusion
 
 Workshop by Chris Young
