@@ -5,12 +5,12 @@ permalink: /workshops/
 ---
 ## Table of Contents
 
-1. [Data Scraping](#scraping)
-  1.1 [Wget for Webpage Data](#wget)
-  1.2 [TWARC for Twitter Data](#twarc)
-  1.3 [Instagram-Scraper for Instagram Data](#instagram)
-2. [Research Creation](#creation)
-  2.2 [Game Design with Unity](#unity)
+1. [Data Scraping](#scraping)  
+  1.1 [Wget for Webpage Data](#wget)  
+  1.2 [TWARC for Twitter Data](#twarc)  
+  1.3 [Instagram-Scraper for Instagram Data](#instagram)  
+2. [Research Creation](#creation)  
+  2.2 [Game Design with Unity](#unity)  
 
 ## 1. Data Scraping <a name="scraping"></a>
 
