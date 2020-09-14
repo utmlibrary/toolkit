@@ -21,6 +21,8 @@ permalink: /workshops/wget/
     4.4 [Mirror a Website](#exercise3)
 5. [Conclusion](#conclusion)
 
+Workshop by [Chris Young](mailto:christopher.young@utoronto.ca)
+
 ## 1. About <a name="about"></a>
 
 Wget is a free command line utility for non-interactive downloads of files from the web to retrieve online material. It supports HTTP, HTTPS, and FTP protocols, as well as retrieval through HTTP procies. Wget can also follow links in HTML, XHTML, and CSS pages, to create local versions of remote websites, fully recreating the directory structure of the original site. This means researchers can use wget to gather copies of online digital content for their research projects.
