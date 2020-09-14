@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Wget
+title: Wget for Webpage Data
 permalink: /workshops/wget/
 ---
 ## Table of Contents
