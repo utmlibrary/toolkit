@@ -67,7 +67,14 @@ Note, these copyright resources only pertain to the [*Copyright Act*](https://la
 ### 3.2 Windows Instructions
 
 ### 3.3 OS X Instructions
-Install Python
+Download and install Python 3.8.5
+
+To install pip, securely 1 download get-pip.py by following this link: get-pip.py. Alternatively, use curl:
+
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+Then run the following command in the folder where you have downloaded get-pip.py:
+
+python get-pip.py
 
 Install pip package manager.
 
