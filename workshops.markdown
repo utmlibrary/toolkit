@@ -18,8 +18,8 @@ permalink: /workshops/
 ### 1.1 [Wget for Webpage Data](/toolkit/workshops/wget/) <a name="wget"></a>  
 Wget is a free command line utility for non-interactive downloads of files from the web to retrieve online material. In this workshop, we only cover how you can download online digital files from public websites, such as Government Archives.
 
-### 1.2 TWARC for Twitter Data <a name="twarc"></a>  
-Coming soon...
+### 1.2 [TWARC for Twitter Data](/toolkit/workshops/wget/) <a name="twarc"></a>  
+TWARC is a command line tool and Python library for archiving Twitter JSON data. In addition to letting you collect tweets Twarc can also help you collect users, trends and hydrate tweet ids. In this workshop, we only cover how you can setup twarc and scrape Twitter data, such as terms, hashtags, and accounts.
 
 ### 1.3 Instagram-Scraper for Instagram Data<a name="instagram"></a>  
 Coming soon...
