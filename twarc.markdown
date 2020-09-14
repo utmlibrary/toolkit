@@ -29,7 +29,7 @@ twarc is a command line tool and Python library for archiving Twitter JSON data.
 
 As you can imagine, twarc can be quite useful if you are interested in building an archive of Twitter data, which could include tweets, comments, trends, geolocation, and numerous metadata that cannot be scraped via Twitter's user interface. However, while twarc can retrieve almost anything from Twitter it is important to read Twitter's [Developer Agreement and Policy](https://developer.twitter.com/en/developer-terms/agreement-and-policy) and list of [restricted use cases](https://developer.twitter.com/en/developer-terms/more-on-restricted-use-cases). 
 
-In the documentation provided in this workshop, we only cover how you can setup twarc and scrape Twitter data, such as trends. If you are in doubt about whether your research project meets ethics requirements and fair use of copyrighted works you can consult your instituitonal research office and scholarly communications officer. If you do not have access to such resources take a look at our [Resources](https://ludicpress.github.io/twarc/resources/) page for more information.
+In the documentation provided in this workshop, we only cover how you can setup twarc and scrape Twitter data, such as trends. If you are in doubt about whether your research project meets ethics requirements and fair use of copyrighted works you can consult your instituitonal research office and scholarly communications officer. If you do not have access to such resources take a look at our [Ethics](#ethics) section below for more information.
 
 ## 2. Resources <a name="resources"></a>
 
