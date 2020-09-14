@@ -1,3 +1,10 @@
+---
+layout: page
+title: Contributors
+permalink: /contributors/
+---
+## Contributors
+
 [Mary Beth Atkinson Lu](mailto:mary.atkinson@utoronto.ca)  
 Digital Scholarship Technician
 
