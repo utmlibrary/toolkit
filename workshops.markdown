@@ -10,7 +10,7 @@ permalink: /workshops/
   1.2 [TWARC for Twitter Data](#twarc)  
   1.3 [Instagram-Scraper for Instagram Data](#instagram)  
 2. [Data Analysis](#analysis)
-3. [Pubish](#publish)  
+3. [Publish](#publish)  
   3.1 [Game Design with Unity](#unity)  
 
 ## 1. Data Gathering <a name="gathering"></a>
