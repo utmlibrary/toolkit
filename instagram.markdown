@@ -67,3 +67,11 @@ Note, these copyright resources only pertain to the [*Copyright Act*](https://la
 ### 3.2 Windows Instructions
 
 ### 3.3 OS X Instructions
+Install Python
+
+Install pip package manager.
+
+Use pip to install instagram-scraper
+## 4. Workshop
+
+## 5. Final Thoughs
