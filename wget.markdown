@@ -82,23 +82,11 @@ If wget is not installed on your system it will respond with:
 If you receive this error message, follow the OS X instructions below.
 
 ### 3.2 Windows Instructions <a name="windows"></a>
-To install wget we have to activate the Windows Subsystem for Linux (WSL) and install a Linux distro (i.e., command line). For this workshop we will use the Ubuntu application on Windows, but first we have to activite the WSL.
+The easiest way is to download a working version. To do so, visit [this website](https://eternallybored.org/misc/wget/) and, download wget.exe (as of writing it is version 1.20, and you should download the 32-bit binary). The file is the second link in the 32-bit binary column, entitled just wget.exe.
 
-To activate the WSL, open Powershell as an Administrator. To do this, type in Powershell in the Windows search bar in the bottom left corner of your screen. The application Windows Powershell Ise will appear. On the right-hand side of the window will be the option 'Run as administrator'. Select Run as administrator and enter your administrative login credentials if prompted. If you do not run Powershell as an administrator the next step will not work.
+If you place wget.exe in your C:\Windows directory, you can then use wget from anywhere on your computer. This will make your life easier as you will not have to worry about always running wget from only one place on your system. If it is in this directory, Windows will know that the command can be used anywhere in your terminal window.
 
-In the Powershell terminal that opens up, copy and paste the following command and hit enter:
-
-```Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux```
-
-Restart your computer when prompted to do so.
-
-Once your computer has restarted, open the Microsoft Store. You can access the Microsoft Store by typing Microsoft Store in the Windows search bar and select open from the right-hand side of the window. When the Microsoft Store opens, type 'Ubuntu' into the search bar. Several Ubuntu applications will appear in the search results. Select the app that is only titled 'Ubuntu' and developed by Canonical Group Limited.
-
-Click install and wait for the Ubuntu application for Windows to install. Once the application has installed, type Ubuntu in the Windows search bar and open the application. Note, you do not need to Run as administrator for this application. The Ubuntu application will take approximately 5 to 10 minutes to install, so do not worry if it does not open right away.
-
-When Ubuntu opens for the first time you will be propted to create a username and password. Create your username and hit enter. Create your password and hit enter. A re-enter password prompt will appear and you re-enter your password. Your username and password should now be created. Whenever you open Ubuntu and try to install software you will be prompted for your username and password.
-
-Now that Ubuntu is installed and you have created a username and password you can check to see if wget is ready to go as it should already be installed with Ubuntu. In the command prompt, type ```'wget'``` and press enter. If wget is already installed the system will respond with:
+Now that Wget is installed, you can open the Command Prompt terminal window. You can access the Command Prompt by typing in the In the command prompt, type ```'wget'``` and press enter. If wget is already installed the system will respond with:
 
 ```$ wget: missing URL```  
 ```Usage: wget [OPTION]... [URL]...```  
