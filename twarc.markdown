@@ -5,25 +5,25 @@ permalink: /workshops/twarc/
 ---
 ## Table of Contents
 
-1. About  
-2. Resources  
-  2.1 Tutorials  
-  2.2 Ethics  
-  2.3 Copyright  
-3. Setup  
-  3.1 Linux Instructions  
-  3.2 Windows Instructions  
-  3.3 OS X Instructions  
-4. Workshop  
-  4.1 Configuration  
-  4.2 Warm-Up  
-  4.3 Gather by Term and Hashtag  
-  4.4 Gather by Twitter Account  
-5. Conclusion
+1. [About](#about)  
+2. [Resources](#resources)  
+  2.1 [Tutorials](#tutorials)  
+  2.2 [Ethics](#ethics)  
+  2.3 [Copyright](#copyright)  
+3. [Setup](#setup)  
+  3.1 [Linux Instructions](#linux)  
+  3.2 [Windows Instructions](#windows)  
+  3.3 [OS X Instructions](#osx)  
+4. [Workshop](#workshop)  
+  4.1 [Configuration](#configuration)  
+  4.2 [Warm-Up](#warmup)  
+  4.3 [Gather by Term and Hashtag](#exercise1)  
+  4.4 [Gather by Twitter Account](#exercise2)  
+5. [Final Thoughts](#final)
 
 Workshop by Chris Young
 
-## 1. About
+## 1. About <a name="about"></a>
 
 twarc is a command line tool and Python library for archiving Twitter JSON data. Each tweet is represented as a JSON object that is exactly what was returned from the Twitter API. Tweets are stored as line-oriented JSON. Twarc will handle Twitter API's rate limits for you. In addition to letting you collect tweets Twarc can also help you collect users, trends and hydrate tweet ids. twarc was developed as part of the Documenting the Now project which was funded by the Mellon Foundation.
 
@@ -31,11 +31,11 @@ As you can imagine, twarc can be quite useful if you are interested in building 
 
 In the documentation provided in this workshop, we only cover how you can setup twarc and scrape Twitter data, such as trends. If you are in doubt about whether your research project meets ethics requirements and fair use of copyrighted works you can consult your instituitonal research office and scholarly communications officer. If you do not have access to such resources take a look at our [Resources](https://ludicpress.github.io/twarc/resources/) page for more information.
 
-## 2. Resources
+## 2. Resources <a name="resources"></a>
 
 There are some fantastic resources out there to learn how to use twarc for gathering an archive of Twitter data in digital research. The most important resource to consult is the [twarc GitHub page](https://github.com/DocNow/twarc) by the Gathering the Now project. The project page includes all the relevant commands for how to use twarc as well as any updates to the command line tool.
 
-### 2.1 Tutorials
+### 2.1 Tutorials <a name="tutorials"></a>
 
 There are also some useful tutorials on how to use twarc by several libraries with a focus on digital research: 
 
@@ -45,7 +45,7 @@ There are also some useful tutorials on how to use twarc by several libraries wi
 [Carleton University Gould Library's Twitter API tutorial](http://gouldguides.carleton.edu/dataknowledgebase/twitterapi)  
 [McGill University Library's text data mining guide](https://libraryguides.mcgill.ca/c.php?g=702813&p=5064861)
 
-### 2.2 Ethics
+### 2.2 Ethics <a name="ethics"></a>
 Digital research ethics of online material is a constantly moving fence. Most post-secondary institutions have Research Offices with policies on the use of human data, which can include data posted on social media posted behind password protested accounts. Check in with your research office if the data you intend to collect from online sources was created by humans to learn more about ethical decision-making of online data. For faculty, staff, and students at UTM, you can contact our Research Office to learn more about [Ethics in Research](https://www.utm.utoronto.ca/vp-research/information-researchers/ethics-research).
 
 A good first resource to consult if you are wantin a quick-and-fast answer to your ethical decision-making of online data is the [Association of Internet Research's](https://aoir.org/) recommendations from its [Ethical Working Committee](https://aoir.org/ethics/). The Committee is constantly updating its documentation and its current recommendations along with a condensed information chart are a good starting point to determine your research ethics:
@@ -53,7 +53,7 @@ A good first resource to consult if you are wantin a quick-and-fast answer to yo
 [Ethical Decision-Making and Internet Research](https://aoir.org/reports/ethics3.pdf)  
 [Chart](https://aoir.org/wp-content/uploads/2017/01/aoir_ethics_graphic_2016.pdf)
 
-### 2.3 Copyright
+### 2.3 Copyright <a name="copyright"></a>
 Copyright has an impact on digital research activities, including the copying of files from the internet using wget. Most post-secondary institutions have Scholarly Communication and Copyright offices with copyright guideliens on fair dealing. Check in with your scholarly communication and copyright office if you are sure your data collection falls under fair dealing. For faculty, staff, and students at UTM, you can contact our [Scholarly Communication Librarian](https://utm.library.utoronto.ca/scholarly-communications) to learn more about copyright fair dealing. The University has also put together a number of resources you can consult if you need a quick-and-fast answer:
 
 [Copyright Fair Dealing Guidelines](https://provost.utoronto.ca//wp-content/uploads/sites/155/2018/06/Copyright-Guidelines.pdf)  
@@ -68,7 +68,7 @@ Council of Ministers of Education's [fair dealing decision tool](http://www.fair
 
 Note, these copyright resources only pertain to the [*Copyright Act*](https://laws-lois.justice.gc.ca/eng/acts/C-42/) for fair dealing in Canada and does not cover copyright in other jurisdictions. For international researchers please consult your own scholarly communication and copyright offices and resources on fair use or fair dealing of copyrighted works in digital research.
 
-## 3. Setup
+## 3. Setup <a name="setup"></a>
 
 Before we start the workshop component of how to build an archive of Twitter data with the command line tool twarc, there is some there is some preliminary setup we have to complete on your computer and with Twitter. Since twarc is used through the command line, we have to install packages onto your computer for it work. Depending on which operating system you use, setup can be straightforward or the most time consuming aspect of learning how to use twarc. Below are installation instructions for Linux, Windows, and OS X users. Once wget is installed on each system, the instructions will be the same for every user participating in the workshop.
 
@@ -83,7 +83,7 @@ When prompted, be sure to read the [Developer Agreement and Policy](https://deve
 
 You may receive a follow up from Twitter about your app, but it is a relatively straightforward process you can complete in a few minutes. You may need to wait a day or two to receive your confirmation, which is why it is important to complete this step first.
 
-### 3.1 Linux Instructions
+### 3.1 Linux Instructions <a name="linux"></a>
 Ubuntu ships with Python 3, as the default Python installation. Complete the following steps to install pip (pip3) for Python 3. Start by updating the package list using the following command in the command line:
 
 ```sudo apt update```
@@ -120,7 +120,7 @@ This means twarc has installed and you need to use an argument after twarc. If t
 
 At this point, however, twarc should be installed successfully. If it is not installed, go through each of the steps above to make sure you did not make a mistake installing pip.
 
-### 3.2 Windows Instructions
+### 3.2 Windows Instructions <a name="windows"></a>
 To install twarc we have to activate the Windows Subsystem for Linux (WSL) and install a Linux distro (i.e., command line). For this workshop we will use the Ubuntu application on Windows, but first we have to activite the WSL.
 
 To activate the WSL, open Powershell as an Administrator. To do this, type in Powershell in the Windows search bar in the bottom left corner of your screen. The application Windows Powershell Ise will appear. On the right-hand side of the window will be the option 'Run as administrator'. Select Run as administrator and enter your administrative login credentials if prompted. If you do not run Powershell as an administrator the next step will not work.
@@ -175,7 +175,7 @@ This means twarc has installed and you need to use an argument after twarc. If t
 
 At this point, however, twarc should be installed successfully. If it is not installed, go through each of the steps above to make sure you did not make a mistake installing pip.
 
-### 3.3 OS X Instructions
+### 3.3 OS X Instructions <a name="osx"></a>
 To install twarc on OS X there are several dependencies we need to install, including Apple's Command Line Tools and Homebrew. This requires downloading XCode. If you have the App Store, you should be able to just download XCode.  If not, the following instructions will work.
 
 To download this, go to the Apple Developer website, register as a developer, and then in the downloads for Apple developers section you will need to find the correct version. If not, you will need to click on the link: “Looking for additional developer tools? View Downloads.”
@@ -218,13 +218,13 @@ This means twarc has installed and you need to use an argument after twarc. If t
 
 At this point, however, twarc should be installed successfully. If it is not installed, go through each of the steps above to make sure you did not make a mistake installing Homebrew.
 
-## 4. Workshop
+## 4. Workshop <a name="workshop"></a>
 
 Does your research require you to build an archive of Twitter data? In this workshop attendees will learn how to scrape tweets with the TWARC program in your command line interface without going through the tedious process of manually downloading tweets. Participants will also be guided through the process of cleaning up Twitter data once it’s downloaded.
 
 For this workshop we are going to build an archive of Twitter data using the command line tool twarc. We are going to walk through a few exercises using twarc in your operating system’s command line interface: terminal for Linux and OS X and Ubuntu for Windows. If you have followed the setup instructions to install wget on your Linux, Windows, or OS X machines then you are ready to begin the workshop.
 
-### 4.1 Configuration
+### 4.1 Configuration <a name="configuration"></a>
 At this point you should have twarc installed and have created your app with Twitter. Now, we need to configure twarc with your app credentials. On the developer.twitter.com interface you will be able to view your app. When you open the app, you will need to view the ```keys and tokens```. Note, the ```Consumer API Keys```, whih includes a ```API key``` and ```API secret key```.
 
 Returning to the command line, you are going to need to tell twarc about your application API keys and grant access to your Twitter account. Type and enter in the following command:
@@ -237,7 +237,7 @@ You will then be prompted to enter your ```consumer secret```. Copy and paste th
 
 You will then be asked to authorize the application by entering a pin which will be provided by a URL printed in the command line. Go to the URL and type the pin into the command line. If all has gone well, you should receive a message stating ```Happy twarcing!```.
 
-### 4.2 Warm Up
+### 4.2 Warm Up <a name="warmup"></a>
 All of the commands in twarc use the following logic when being used:
 
 ```twarc [query] [text] [--filter] [text] > [file output]```
@@ -260,7 +260,7 @@ You only need to run the command for a few seconds so hit ```control``` or ```ct
 
 To view the jsonl file you've created you can open the file with a text editor, such as [BBEdit](https://apps.apple.com/us/app/bbedit/id404009241?mt=12) on OSX or [notepad ++](https://notepad-plus-plus.org/downloads/) on Windows.
 
-### 4.3 Gather by Term and Hashtag
+### 4.3 Gather by Term and Hashtag <a name="exercise1"></a>
 Let's say you want to gather Twitter data on users around a given topic that is encapsulated by a hashtage or a series of terms. As noted in the warm up section, you can gather tweets as they happen using the ```filter``` query and the past week's tweets using the ```search```.
 
 For this exercise, we want to gather tweets on the coronavirus, which are differentiated here for search and filter:
@@ -287,7 +287,7 @@ or
 
 As you can see from this example, we differentiated the search and filter commands by the location of Montreal and the language French. This type of filter can be useful when you're trying to get a sense of how a specific community in a geolocation tweets about a topic.
 
-### 4.4 Gather by Twitter Account
+### 4.4 Gather by Twitter Account <a name="exercise2"></a>
 Another strategy to gather Twitter data is by selecting specific Twitter accounts. As noted in the warm section, you can gather tweets as they happen using the ```filter``` query and the past week's tweets using the ```search```.
 
 For this exercise, we want to gather tweets sent out by specific organizations on the coronavirus, which are differentiated here for search and filter. Note, we use the ```follow``` command followed by the userid of the Twitter account. To get the userid of an account, [GetTwitterID](http://gettwitterid.com/) can generate a userid using the twitter handle as input. In the case of this example, we are gathering all tweets from the World Health Organization on the coronavirus:
@@ -298,5 +298,5 @@ or
 
 As you can see, it will only scrape tweets sent by this organization when they tweet the term coronavirus. Some researchers may want to develop a list of accounts they want to follow on a topic and these can added to the ```follow``` function by adding a comma (```,```) with no spaces after each each userid.
 
-## 5. Final Thoughts
+## 5. Final Thoughts <a name="final"></a>
 As you become increasingly comfortable with the command line, you will find twarc a helpful addition to your digital research toolkit. If there is a selection of twitter data that you want to download for text mining and analysis, a quick twarc command will be quicker than scraping the links manually. While this workshop focuses on a few of the commands, a fuller list with quick examples can be found at the [twarc GitHub project](https://github.com/DocNow/twarc).
