@@ -207,7 +207,7 @@ Let's take an example file from the web. Say you want to download a news article
 The command ```cd``` is the 'change directory' command. You use this command to navigate through your folders. When you type in ```cd``` you are automatically redirected to your home directory. When you type ```cd ..``` you navigate backwards one directory. 
 
 To create a new folder in your home directory with the folder name wget-medium, type in and enter the following command:
-
+ 
 ```mkdir wget-medium```
 
 The command ```mkdir``` is the 'make directory' command. You have probably noticed that many commands are just abbreviations of actions. If you ever need a list of commands for your terminal simply type and enter:
