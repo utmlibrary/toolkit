@@ -65,6 +65,8 @@ Note, these copyright resources only pertain to the [*Copyright Act*](https://la
 ### 3.1 Linux Instructions
 
 ### 3.2 Windows Instructions
+Download and install Python 3.8.5
+
 
 ### 3.3 OS X Instructions
 Download and install Python 3.8.5
