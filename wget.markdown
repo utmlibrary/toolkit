@@ -167,19 +167,6 @@ After you type the command and hit enter you should receive a version message fo
 
 ```GNU Wget 1.19.4 build on linux gnu.```
 
-At the time of writing the documentaton for this workshop the version of wget on my computer was 1.19.4. If you want to see if wget is up-to-date you can enter the following commands for Linux, OS X, and Windows:
-
-Linux  
-```sudo apt-get upgrade wget```
-
-OS X (Homebrew)  
-```brew upgrade wget```
-
-Windows (Ubuntu)  
-```sudo apt-get upgrade wget```
-
-Depending on whether wget is up-to-date you will receive a message stating wget has been upgraded or wget is already the newest version.
-
 Now that we know wget is installed and ready to go on your computer for some digital research we can try a few other commands. Another command that is really useful if you need instructions to help you craft your command is the help function. In the command prompt type in the following command and hit enter:
 
 ```wget --help```
