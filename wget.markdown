@@ -86,7 +86,7 @@ The easiest way is to download a working version. To do so, visit [this website]
 
 If you place ```wget.exe``` in your ```C:\Windows``` directory, you can then use wget from anywhere on your computer. This will make your life easier as you will not have to worry about always running wget from only one place on your system. If it is in this directory, Windows will know that the command can be used anywhere in your terminal window.
 
-Now that Wget is installed, you can open the Command Prompt terminal window. You can access the Command Prompt by typing in the In the command prompt, type ```'wget'``` and press enter. If wget is already installed the system will respond with:
+Now that Wget is installed, you can open the Command Prompt terminal window. You can access the Command Prompt by typing ```command prompt``` in the search bar by Start and opening the application. In the Command Prompt, type ```wget``` and press enter. If wget is already installed the system will respond with:
 
 ```$ wget: missing URL```  
 ```Usage: wget [OPTION]... [URL]...```  
