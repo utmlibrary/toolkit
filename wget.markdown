@@ -46,7 +46,7 @@ Digital research ethics of online material is a constantly moving fence. Most po
 A good first resource to consult if you are wantin a quick-and-fast answer to your ethical decision-making of online data is the [Association of Internet Research's](https://aoir.org/) recommendations from its [Ethical Working Committee](https://aoir.org/ethics/). The Committee is constantly updating its documentation and its current recommendations along with a condensed information chart are a good starting point to determine your research ethics:
 
 [Ethical Decision-Making and Internet Research](https://aoir.org/reports/ethics3.pdf)  
-[Chart](https://aoir.org/wp-content/uploads/2017/01/aoir_ethics_graphic_2016.pdf)
+[Chart for Internet Researcher Ethics](https://aoir.org/wp-content/uploads/2017/01/aoir_ethics_graphic_2016.pdf)
 
 ### 2.3 Copyright <a name="copyright"></a>
 Copyright has an impact on digital research activities, including the copying of files from the internet using wget. Most post-secondary institutions have Scholarly Communication and Copyright offices with copyright guideliens on fair dealing. Check in with your scholarly communication and copyright office if you are sure your data collection falls under fair dealing. For faculty, staff, and students at UTM, you can contact our [Scholarly Communication Librarian](https://utm.library.utoronto.ca/scholarly-communications) to learn more about copyright fair dealing. The University has also put together a number of resources you can consult if you need a quick-and-fast answer:
