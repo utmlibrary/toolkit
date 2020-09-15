@@ -96,7 +96,7 @@ If wget is not installed on your system it will respond with:
 
 ```$ command not found.```
 
-If you receive this error message, follow the OS X instructions below.
+If you receive this error message, check through the instructions above to make sure you didn't miss a step.
 
 ### 3.3 OS X Instructions <a name="osx"></a>
 On OS X, there are two ways to get wget and install it. The easiest is to install a package manager and use it to automatically install wget. There is a second method, discussed below, that involves compiling it.
