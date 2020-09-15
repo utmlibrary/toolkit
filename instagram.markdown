@@ -66,6 +66,10 @@ Note, these copyright resources only pertain to the [*Copyright Act*](https://la
 
 ### 3.2 Windows Instructions
 Download and install Python 3.8.5
+Make sure to select Add to PATH
+python get-pip.py
+pip --version
+pip install instagram-scraper
 
 
 ### 3.3 OS X Instructions
