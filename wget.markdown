@@ -45,7 +45,7 @@ Digital research ethics of online material is a constantly moving fence. Most po
 
 A good first resource to consult if you are wantin a quick-and-fast answer to your ethical decision-making of online data is the [Association of Internet Research's](https://aoir.org/) recommendations from its [Ethical Working Committee](https://aoir.org/ethics/). The Committee is constantly updating its documentation and its current recommendations along with a condensed information chart are a good starting point to determine your research ethics:
 
-[Ethical Decision-Making and Internet Research](https://aoir.org/reports/ethics2.pdf)  
+[Ethical Decision-Making and Internet Research](https://aoir.org/reports/ethics3.pdf)  
 [Chart](https://aoir.org/wp-content/uploads/2017/01/aoir_ethics_graphic_2016.pdf)
 
 ### 2.3 Copyright <a name="copyright"></a>
