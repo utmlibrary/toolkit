@@ -101,6 +101,13 @@ You can now install instagram-scraper with the command pip3 install instagram-sc
 Use pip to install instagram-scraper
 ## 4. Workshop
 
+### 4.1 Create Research Profile
+
+### 4.2 Scrape User Accounts
+
+### 4.3 Scrape Hashtags
+
+### 4.4. Scrape Locations
 
 
 ## 5. Final Thoughs
