@@ -63,6 +63,19 @@ Note, these copyright resources only pertain to the [*Copyright Act*](https://la
 ## 3. Setup <a name="setup"></a>
 
 ### 3.1 Linux Instructions
+Open the terminal terminal
+
+Most linuz distributions come with python already installed. To check type python --version and/or python3 --version.
+
+sudo apt-get update
+
+sudo apt-get install python3.8
+
+Select y when given the option to continue and hit enter
+
+pip3 install instagram-scraper
+
+instagram-scraper -h
 
 
 ### 3.2 Windows Instructions
@@ -87,5 +100,7 @@ You can now install instagram-scraper with the command pip3 install instagram-sc
 
 Use pip to install instagram-scraper
 ## 4. Workshop
+
+
 
 ## 5. Final Thoughs
