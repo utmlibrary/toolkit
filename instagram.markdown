@@ -33,7 +33,7 @@ There are some fantastic resources out there to learn how to use instagram-scrap
 
 ### 2.1 Tutorials <a name="tutorials"></a>
 
-There are also some useful tutorials on how to use twarc by several libraries with a focus on digital research: 
+There are also some useful tutorials on how to use instagram-scraper by several libraries with a focus on digital research: 
 
 
 
@@ -64,25 +64,26 @@ Note, these copyright resources only pertain to the [*Copyright Act*](https://la
 
 ### 3.1 Linux Instructions
 
+
 ### 3.2 Windows Instructions
 Download and install Python 3.8.5
 Make sure to select Add to PATH
-python get-pip.py
-pip --version
-pip install instagram-scraper
+pip3 --version
+pip3 install instagram-scraper
 
 
 ### 3.3 OS X Instructions
 Download and install Python 3.8.5
 
-To install pip, securely 1 download get-pip.py by following this link: get-pip.py. Alternatively, use curl:
+Agree to install.
 
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-Then run the following command in the folder where you have downloaded get-pip.py:
+In finder window for Python 3.8 click on the "Install Certificates.command" to verify Python packages. This will open up the Terminal to update the Python certificates. Wait until you read the message ```[Process completed]```. Close the terminal, then click on "Update Shell Profile.command" to update the terminal. This updates the Terminal in your bin directory so you can access python from the terminal. Wait until you read the message ```[Process completed]```. Close the terminal.
 
-python get-pip.py
+Open up a new terminal and type python3 --version to check python is installed. You should receive the message ```Python 3.8.5```
 
-Install pip package manager.
+Then type in pip3 --version. You should receive the message pip 20.2.3.
+
+You can now install instagram-scraper with the command pip3 install instagram-scraper
 
 Use pip to install instagram-scraper
 ## 4. Workshop
