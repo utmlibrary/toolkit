@@ -43,7 +43,7 @@ A good first resource to consult if you are wantin a quick-and-fast answer to yo
 [Chart](https://aoir.org/wp-content/uploads/2017/01/aoir_ethics_graphic_2016.pdf)
 
 ### 2.2 Copyright <a name="copyright"></a>
-Copyright has an impact on digital research activities, including the copying of files from the internet using wget. Most post-secondary institutions have Scholarly Communication and Copyright offices with copyright guideliens on fair dealing. Check in with your scholarly communication and copyright office if you are sure your data collection falls under fair dealing. For faculty, staff, and students at UTM, you can contact our [Scholarly Communication Librarian](https://utm.library.utoronto.ca/scholarly-communications) to learn more about copyright fair dealing. The University has also put together a number of resources you can consult if you need a quick-and-fast answer:
+Copyright has an impact on digital research activities, including the copying of files from the internet using instagram-scraper. Most post-secondary institutions have Scholarly Communication and Copyright offices with copyright guideliens on fair dealing. Check in with your scholarly communication and copyright office if you are sure your data collection falls under fair dealing. For faculty, staff, and students at UTM, you can contact our [Scholarly Communication Librarian](https://utm.library.utoronto.ca/scholarly-communications) to learn more about copyright fair dealing. The University has also put together a number of resources you can consult if you need a quick-and-fast answer:
 
 [Copyright Fair Dealing Guidelines](https://provost.utoronto.ca//wp-content/uploads/sites/155/2018/06/Copyright-Guidelines.pdf)  
 [Copyright Basics](https://onesearch.library.utoronto.ca/sites/default/files/copyright/basicsfaqs_092018.pdf)  
@@ -58,7 +58,7 @@ Council of Ministers of Education's [fair dealing decision tool](http://www.fair
 Note, these copyright resources only pertain to the [*Copyright Act*](https://laws-lois.justice.gc.ca/eng/acts/C-42/) for fair dealing in Canada and does not cover copyright in other jurisdictions. For international researchers please consult your own scholarly communication and copyright offices and resources on fair use or fair dealing of copyrighted works in digital research.
 
 ## 3. Setup <a name="setup"></a>
-Before we begin with the workshop component of how to use instagram-scraper for digital research there is some preliminary setup we have to complete on your computer. Since instagram-scraper is used through the command line, we have to install packages onto your computer for it work. Depending on which operating system you use, setup can be straightforward or the most time consuming aspect of learning how to use instagram-scraper. Below are installation instructions for Linux, Windows, and OS X users which all require the installation of Python and the pacakge manager Pip to install Python pacakges, like instagram-scraper. Once instagram-scraper is installed on each system, the instructions will be the same for every user participating in the workshop.
+Before we begin with the workshop component of how to use instagram-scraper for digital research there is some preliminary setup we have to complete on your computer. Since instagram-scraper is used through the command line, we have to install packages onto your computer for it work. Depending on which operating system you use, setup can be straightforward or the most time consuming aspect of learning how to use instagram-scraper. Below are installation instructions for Linux, Windows, and OS X users which all require the installation of Python and the package manager Pip to install Python pacakges, like instagram-scraper. Once instagram-scraper is installed on each system, the instructions will be the same for every user participating in the workshop.
 
 ### 3.1 Linux Instructions <a name="linux"></a>
 Ubuntu ships with Python 3, as the default Python installation. Complete the following steps to install pip (pip3) for Python 3. Start by updating the package list using the following command in the command line:
@@ -79,7 +79,7 @@ The output version my vary, but it will look something like this:
 
 ```pip 20.2.3 from [YOUR DIRECTORY] (python 3.8)```
 
-Now that pip is installed, we can use it to install twarc. Type and enter the following command into the command line:
+Now that pip is installed, we can use it to install instaggram-scraper. Type and enter the following command into the command line:
 
 ```pip3 install instagram-scraper```
 
@@ -87,7 +87,7 @@ It will proceed to download the most recent version of instagram-scraper, which 
 
 ```instagram-scraper```
 
-If twarc has installed, you will see dozens of lines of commands that end with the following statement:
+If instagram-scraper has installed, you will see dozens of lines of commands that end with the following statement:
 
 ```ValueError: Must provide username(s) OR a file containing a list of username(s) OR pass --followings-input```
 
@@ -108,7 +108,7 @@ The output version my vary, but it will look something like this:
 
 ```pip 20.2.3 from [YOUR DIRECTORY] (python 3.8)```
 
-Now that pip is installed, we can use it to install twarc. Type and enter the following command into the command line:
+Now that pip is installed, we can use it to install instagram-scraper. Type and enter the following command into the command line:
 
 ```pip3 install instagram-scraper```
 
@@ -116,7 +116,7 @@ It will proceed to download the most recent version of instagram-scraper, which 
 
 ```instagram-scraper```
 
-If twarc has installed, you will see dozens of lines of commands that end with the following statement:
+If instagram-scraper has installed, you will see dozens of lines of commands that end with the following statement:
 
 ```ValueError: Must provide username(s) OR a file containing a list of username(s) OR pass --followings-input```
 
@@ -137,7 +137,7 @@ The output version my vary, but it will look something like this:
 
 ```pip 20.2.3 from [YOUR DIRECTORY] (python 3.8)```
 
-Now that pip is installed, we can use it to install twarc. Type and enter the following command into the command line:
+Now that pip is installed, we can use it to install instagram-scraper. Type and enter the following command into the command line:
 
 ```pip3 install instagram-scraper```
 
@@ -145,7 +145,7 @@ It will proceed to download the most recent version of instagram-scraper, which 
 
 ```instagram-scraper```
 
-If twarc has installed, you will see dozens of lines of commands that end with the following statement:
+If instagram-scraper has installed, you will see dozens of lines of commands that end with the following statement:
 
 ```ValueError: Must provide username(s) OR a file containing a list of username(s) OR pass --followings-input```
 
