@@ -15,7 +15,7 @@ permalink: /workshops/twarc/
   3.3 [OS X Instructions](#osx)  
 4. [Workshop](#workshop)  
   4.1 [Create Research Persona](#persona)  
-  4.2 [Warm-Up](#warmup)
+  4.2 [Warm-Up](#warmup)  
   4.3 [Gather User Account Data](#exercise1)  
   4.4 [Gather Hashtag Data](#exercise2)  
   4.5 [Gather Location Data](#exercise3)  
