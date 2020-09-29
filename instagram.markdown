@@ -183,10 +183,20 @@ As such, if you are retrieving data from a private user account where you are an
 When customizing your search query with options, you can use filters, limitations, and include specific metadata. Some of the filters include gathering queries by geolocation and mediatypes. Some of the limitations include a maximum number of posts to gather and the latest posts since the previous scrape command. And some of the specific metadata can include comments and profile metadata.
 
 ### 4.3 Gather User Account Data <a name="exercise1"></a>
+Let's say you want to gather Instagram data from a specific user account or several accounts. For this exercise, we want to gather posts on the University of Toronto Mississauga Library Instagram account. As the account is set to public we do not need to use the ```-u [username``` and ```-p [password]``` functions:
 
+```instagram-scraper utmlibrary```
+
+This command will download all photos and video files. However, let's say we want to gather metadata, such as comments. We can add options to the end of our command for additional metadata. In this case:
+
+```instagram-scraper utmlibrary --comments```
+
+By default, the ```--comments``` option saves the comment metadata associated with the posts to a json file. If we add other metadata options, like ```--profile-metadata``` or ```--include-location``` we will gather the UTM Library profile metadata and the location of where the posts were created. 
+
+To view the json file you've created you can open the file with a text editor, such as [BBEdit](https://apps.apple.com/us/app/bbedit/id404009241?mt=12) on OSX or [notepad ++](https://notepad-plus-plus.org/downloads/) on Windows.
 
 ### 4.4 Gather Hashtag Data <a name="exercise2"></a>
-
+Let's say you want to gather Instagram data on users around a given topic that is encapsulated by a hashtag or a series or terms. For this exercise, we want to gather instagram posts on the topic of Science Literacy Week which takes place every September in Canada.
 
 ### 4.5 Gather Location Data <a name="exercise3"></a>
 
