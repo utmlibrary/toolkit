@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Instagram-Scraper for Instagram Data
-permalink: /workshops/twarc/
+permalink: /workshops/instagram-scraper/
 ---
 ## Table of Contents
 
