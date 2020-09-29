@@ -202,7 +202,16 @@ When instagram-scraper has finished gather all the posts in the three Instagram 
 To view the json file you've created you can open the file with a text editor, such as [BBEdit](https://apps.apple.com/us/app/bbedit/id404009241?mt=12) on OSX or [notepad ++](https://notepad-plus-plus.org/downloads/) on Windows.
 
 ### 4.4 Gather Hashtag Data <a name="exercise2"></a>
-Let's say you want to gather Instagram data on users around a given topic that is encapsulated by a hashtag or a series or terms. For this exercise, we want to gather instagram posts on the topic of Science Literacy Week which takes place every September in Canada.
+Let's say you want to gather Instagram data on users around a given topic that is encapsulated by a hashtag or a series or terms. For this exercise, we want to gather Instagram posts on the topic of Science Literacy Week which takes place every September in Canada. As hashtags are intended for the public we do not need to use the ```-u [username``` and ```-p [password]``` functions:
+
+```instagram-scraper --tag scilit```
+
+This command will download all photos and video files associated with the hashtag ```#scilit```. However, I chose this hashtag because it is limited to approximately 1,000 posts. If you use more common hashtags, your results will download everything associated with that hashtag and can take a very long time to download--chances are it will never finish.
+
+Like in the previous example we want to include metadata options like media, comments, profile, and location metadata. But we also want to include other hashtags that users may have used when posting about Science Literacy Week this year:
+
+```instagram-scraper --tag scilit,scilit20,scilitweek,scienceliteracyweek --comments --profile-metadata --include-location```
+
 
 ### 4.5 Gather Location Data <a name="exercise3"></a>
 
