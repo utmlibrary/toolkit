@@ -162,8 +162,9 @@ Does your research require you to build an archive of Instagram data? In this wo
 
 For this workshop we are going to build an archive of Instagram data using the command line tool instagram-scraper. We are going to walk through a few exercises using instagram-scraper in your operating system’s command line interface: terminal for Linux and OS X and command prompt for Windows. If you have followed the setup instructions to install instagram-scraper on your Linux, Windows, or OS X machines then you are ready to begin the workshop.
 
-### 4.1 Create Research Profile <a name="persona"></a>
+### 4.1 Create Research Persona <a name="persona"></a>
 
+Research personas can be an incredibly useful method to gather online research data. Research personas in the context of social media, are research-dedicated accounts to track activities and information online. Research personas have been used to consider how platform providers provide access to different social groups, such as gender, race, and profession, and to recreate abstract use case scenarios that are aligned with the interests of the researcher. In the case of instagram-scraper, the research persona can be useful in separating the researcher and their own personal or organizatinal from their research accounts. As such, it is recommended that when using instagram-scraper, researchers develop a research-dedicated Instagram account for when they have to gather Instagram data from a private user account. Doing so separates the private connections a researcher might have with their personal Instagram account and encourage them to reach out a private user about their research project and intent to gather private Instagram data.
 
 ### 4.2 Warm Up <a name="warmup"></a>
 
