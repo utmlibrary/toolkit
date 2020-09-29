@@ -169,9 +169,15 @@ For this workshop we are going to build an archive of Instagram data using the c
 
 All of the commands in instagram-scraper use the following logic when being used:
 
-```instagram-scraper [text] [username] [password] [--options]```
+```instagram-scraper [text] [--options]```
 
-instagram-scraper has one query for gathering Instagram data: ```text```. The text query allows you to retrieve all post data pertaining to a user account, hashtag, or location. The query retrieves all data currently associated with an account, hashtag, or location as long as it is not a private account. If an account is set to private that user's Instagram data will be unavailable. The only exception is if you have an account where you are an approved follower and you include the ```[username]``` and ```[password]``` information for your research persona which is an approved followed of the user account you intend to gather Instagram data from.
+instagram-scraper has one query for gathering Instagram data: ```text```. The text query allows you to retrieve all post data pertaining to a user account, hashtag, or location. The query retrieves all data currently associated with an account, hashtag, or location as long as it is not a private account. If an account is set to private that user's Instagram data will be unavailable. The only exception is if you have an account where you are an approved follower and you include the ```[username]``` and ```[password]``` information for your research persona which is an approved followed of the user account you intend to gather Instagram data from. 
+
+As such, if you are retrieving data from a private user account where you are an approved follower, the logic of instagram-scraper is as follows:
+
+```instagram-scraper [text] -u [username] -p [password] [--options]```
+
+When customizing your search query with options, you can use filters, limitations, and include specific metadata. Some of the filters include gathering queries by geolocation and mediatypes. Some of the limitations include a maximum number of posts to gather and the latest posts since the previous scrape command. And some of the specific metadata can include comments and profile metadata.
 
 ### 4.3 Gather User Account Data <a name="exercise1"></a>
 
