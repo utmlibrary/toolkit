@@ -212,6 +212,9 @@ Like in the previous example we want to include metadata options like media, com
 
 ```instagram-scraper --tag scilit,scilit20,scilitweek,scienceliteracyweek --comments --profile-metadata --include-location```
 
+When instagram-scraper has finished gather all the hashtags you've selected (in this case for Science Literacy Week), you will find one folder for each hashtag with photos, videos, and a json file that includes the media metadata along with comments, profile, and location metadata associated with each post.
+
+To view the json file you've created you can open the file with a text editor, such as [BBEdit](https://apps.apple.com/us/app/bbedit/id404009241?mt=12) on OSX or [notepad ++](https://notepad-plus-plus.org/downloads/) on Windows.
 
 ### 4.5 Gather Location Data <a name="exercise3"></a>
 
