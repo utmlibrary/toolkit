@@ -58,6 +58,7 @@ Council of Ministers of Education's [fair dealing decision tool](http://www.fair
 Note, these copyright resources only pertain to the [*Copyright Act*](https://laws-lois.justice.gc.ca/eng/acts/C-42/) for fair dealing in Canada and does not cover copyright in other jurisdictions. For international researchers please consult your own scholarly communication and copyright offices and resources on fair use or fair dealing of copyrighted works in digital research.
 
 ## 3. Setup <a name="setup"></a>
+Before we begin with the workshop component of how to use instagram-scraper for digital research there is some preliminary setup we have to complete on your computer. Since instagram-scraper is used through the command line, we have to install packages onto your computer for it work. Depending on which operating system you use, setup can be straightforward or the most time consuming aspect of learning how to use instagram-scraper. Below are installation instructions for Linux, Windows, and OS X users. Once instagram-scraper is installed on each system, the instructions will be the same for every user participating in the workshop.
 
 ### 3.1 Linux Instructions <a name="linux"></a>
 Ubuntu ships with Python 3, as the default Python installation. Complete the following steps to install pip (pip3) for Python 3. Start by updating the package list using the following command in the command line:
@@ -155,6 +156,10 @@ This means instagram-scraper has installed and you need to use an argument after
 At this point, however, instagram-scraper should be installed successfully. If it is not installed, go through each of the steps above to make sure you did not make a mistake installing pip.
 
 ## 4. Workshop <a name="workshop"></a>
+
+Does your research require you to build an archive of Instagram data? In this workshop attendees will learn how to scrape tweets with the instagram-scraper program in your command line interface without going through the tedious process of manually downloading Instagram posts. Participants will also be guided through the process of cleaning up Twitter data once it’s downloaded.
+
+For this workshop we are going to build an archive of Twitter data using the command line tool twarc. We are going to walk through a few exercises using twarc in your operating system’s command line interface: terminal for Linux and OS X and Ubuntu for Windows. If you have followed the setup instructions to install wget on your Linux, Windows, or OS X machines then you are ready to begin the workshop.
 
 ### 4.1 Create Research Profile <a name="persona"></a>
 
