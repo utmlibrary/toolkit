@@ -15,9 +15,10 @@ permalink: /workshops/twarc/
   3.3 [OS X Instructions](#osx)  
 4. [Workshop](#workshop)  
   4.1 [Create Research Persona](#persona)  
-  4.2 [Gather User Account Data](#exercise1)  
-  4.3 [Gather Hashtag Data](#exercise2)  
-  4.4 [Gather Location Data](#exercise3)  
+  4.2 [Warm-Up](#warmup)
+  4.3 [Gather User Account Data](#exercise1)  
+  4.4 [Gather Hashtag Data](#exercise2)  
+  4.5 [Gather Location Data](#exercise3)  
 5. [Final Thoughts](#final)
 
 Workshop by [Chris Young](mailto:christopher.young@utoronto.ca)
@@ -163,11 +164,17 @@ For this workshop we are going to build an archive of Instagram data using the c
 
 ### 4.1 Create Research Profile <a name="persona"></a>
 
-### 4.2 Gather User Account Data <a name="exercise1"></a>
 
-### 4.3 Gather Hashtag Data <a name="exercise2"></a>
+### 4.2 Warm Up <a name="warmup"></a>
 
-### 4.4. Gather Location Data <a name="exercise3"></a>
+
+### 4.3 Gather User Account Data <a name="exercise1"></a>
+
+
+### 4.4 Gather Hashtag Data <a name="exercise2"></a>
+
+
+### 4.5 Gather Location Data <a name="exercise3"></a>
 
 
 ## 5. Final Thoughts <a name="final"></a>
