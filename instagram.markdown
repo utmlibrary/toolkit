@@ -157,9 +157,9 @@ At this point, however, instagram-scraper should be installed successfully. If i
 
 ## 4. Workshop <a name="workshop"></a>
 
-Does your research require you to build an archive of Instagram data? In this workshop attendees will learn how to scrape tweets with the instagram-scraper program in your command line interface without going through the tedious process of manually downloading Instagram posts. Participants will also be guided through the process of cleaning up Twitter data once it’s downloaded.
+Does your research require you to build an archive of Instagram data? In this workshop attendees will learn how to gather Instagram data with the instagram-scraper program in your command line interface without going through the tedious process of manually downloading Instagram posts. Participants will also be guided through the process of cleaning up Instagram data once it’s downloaded.
 
-For this workshop we are going to build an archive of Twitter data using the command line tool twarc. We are going to walk through a few exercises using twarc in your operating system’s command line interface: terminal for Linux and OS X and Ubuntu for Windows. If you have followed the setup instructions to install wget on your Linux, Windows, or OS X machines then you are ready to begin the workshop.
+For this workshop we are going to build an archive of Instagram data using the command line tool instagram-scraper. We are going to walk through a few exercises using instagram-scraper in your operating system’s command line interface: terminal for Linux and OS X and command prompt for Windows. If you have followed the setup instructions to install instagram-scraper on your Linux, Windows, or OS X machines then you are ready to begin the workshop.
 
 ### 4.1 Create Research Profile <a name="persona"></a>
 
