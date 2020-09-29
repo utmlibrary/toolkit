@@ -76,7 +76,7 @@ Once the installation is complete, verify the installation by checking the pip v
 
 The output version my vary, but it will look something like this:
 
-```pip 9.0.1. from /usr/lib/python3/dist-packages (python 3.6)```
+```pip 20.2.3 from [YOUR DIRECTORY] (python 3.8)```
 
 Now that pip is installed, we can use it to install twarc. Type and enter the following command into the command line:
 
@@ -97,26 +97,63 @@ This means instagram-scraper has installed and you need to use an argument after
 At this point, however, instagram-scraper should be installed successfully. If it is not installed, go through each of the steps above to make sure you did not make a mistake installing pip.
 
 ### 3.2 Windows Instructions <a name="windows"></a>
-Download and install Python 3.8.5
-Make sure to select Add to PATH
-pip3 --version
-pip3 install instagram-scraper
+The easiest way for Windows machines is to download and install Python. To do so, download the latest version of Python from the [python.org website](https://www.python.org/downloads/)(as of writing it is version 3.8.5). When you have downloaded the Python package you will need to open it and install it. Before you click through the agreement, make sure you select ```Add to PATH``` in the options window. This is critical as it will add your installation of Python 3.8.5 to your PATH for use in the command prompt. 
 
+Once the installation is complete, verify the installation by checking the pip version:
+
+```pip3 --version```
+
+The output version my vary, but it will look something like this:
+
+```pip 20.2.3 from [YOUR DIRECTORY] (python 3.8)```
+
+Now that pip is installed, we can use it to install twarc. Type and enter the following command into the command line:
+
+```pip3 install instagram-scraper```
+
+It will proceed to download the most recent version of instagram-scraper, which us version 1.9.0. After the script stops running, and you are back to your main window, enter the following command into the terminal:
+
+```instagram-scraper```
+
+If twarc has installed, you will see dozens of lines of commands that end with the following statement:
+
+```ValueError: Must provide username(s) OR a file containing a list of username(s) OR pass --followings-input```
+
+This means instagram-scraper has installed and you need to use an argument after ```instagram-scraper```. If instagram-scraper is not installed on your system it will respond with:
+
+```$ command not found.```
+
+At this point, however, instagram-scraper should be installed successfully. If it is not installed, go through each of the steps above to make sure you did not make a mistake installing pip.
 
 ### 3.3 OS X Instructions <a name="osx"></a>
-Download and install Python 3.8.5
+The easiest way for Windows machines is to download and install Python. To do so, download the latest version of Python from the [python.org website](https://www.python.org/downloads/)(as of writing it is version 3.8.5). When you have downloaded the Python package you will need to open it and install it. After you click through the installation process you will need to verify the Python certifications and update your terminal shell. In the finder window for Python 3.8 click on the "Install Certificates.command" to verify Python packages. This will open up the Terminal to update the Python certificates. Wait until you read the message ```[Process completed]```. Close the terminal, then click on "Update Shell Profile.command" to update the terminal. This updates the Terminal in your bin directory so you can access python from the terminal. Wait until you read the message ```[Process completed]```. Close the terminal.
 
-Agree to install.
+Open a new terminal and verify the installation is complete by checking the pip version:
 
-In finder window for Python 3.8 click on the "Install Certificates.command" to verify Python packages. This will open up the Terminal to update the Python certificates. Wait until you read the message ```[Process completed]```. Close the terminal, then click on "Update Shell Profile.command" to update the terminal. This updates the Terminal in your bin directory so you can access python from the terminal. Wait until you read the message ```[Process completed]```. Close the terminal.
+```pip3 --version```
 
-Open up a new terminal and type python3 --version to check python is installed. You should receive the message ```Python 3.8.5```
+The output version my vary, but it will look something like this:
 
-Then type in pip3 --version. You should receive the message pip 20.2.3.
+```pip 20.2.3 from [YOUR DIRECTORY] (python 3.8)```
 
-You can now install instagram-scraper with the command pip3 install instagram-scraper
+Now that pip is installed, we can use it to install twarc. Type and enter the following command into the command line:
 
-Use pip to install instagram-scraper
+```pip3 install instagram-scraper```
+
+It will proceed to download the most recent version of instagram-scraper, which us version 1.9.0. After the script stops running, and you are back to your main window, enter the following command into the terminal:
+
+```instagram-scraper```
+
+If twarc has installed, you will see dozens of lines of commands that end with the following statement:
+
+```ValueError: Must provide username(s) OR a file containing a list of username(s) OR pass --followings-input```
+
+This means instagram-scraper has installed and you need to use an argument after ```instagram-scraper```. If instagram-scraper is not installed on your system it will respond with:
+
+```$ command not found.```
+
+At this point, however, instagram-scraper should be installed successfully. If it is not installed, go through each of the steps above to make sure you did not make a mistake installing pip.
+
 ## 4. Workshop <a name="workshop"></a>
 
 ### 4.1 Create Research Profile <a name="persona"></a>
