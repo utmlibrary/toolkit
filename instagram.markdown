@@ -171,3 +171,5 @@ For this workshop we are going to build an archive of Instagram data using the c
 
 
 ## 5. Final Thoughts <a name="final"></a>
+
+As you become increasingly comfortable with the command line, you will find instagram-scraper a helpful addition to your digital research toolkit. If there is a selection of Instagram data that you want to download for text mining and analysis, a quick instagram-scraper command will be quicker than scraping the links manually. While this workshop focuses on a few of the commands, a fuller list with quick examples can be found at the [instagram-scraper GitHub project](https://github.com/arc298/instagram-scraper).
