@@ -32,7 +32,7 @@ In the documentation provided in this workshop, we only cover how you can setup 
 
 ## 2. Resources <a name="resources"></a>
 
-There are some fantastic resources out there to learn how to use instagram-scraper for gathering an archive of Instagram data in digital research. The most important resource to consult is the [instagram-scraper GitHub page](https://github.com/arc298/instagram-scraper) by the arc298. The project page includes all the relevant commands for how to use instagram-scraper as well as any updates to the command line tool.
+There are some fantastic resources out there to learn how to use instagram-scraper for gathering an archive of Instagram data in digital research. The most important resource to consult is the [instagram-scraper GitHub page](https://github.com/arc298/instagram-scraper) by Richard Arcega. The project page includes all the relevant commands for how to use instagram-scraper as well as any updates to the command line tool.
 
 ### 2.1 Ethics <a name="ethics"></a>
 Digital research ethics of online material is a constantly moving fence. Most post-secondary institutions have Research Offices with policies on the use of human data, which can include data posted on social media posted behind password protested accounts. Check in with your research office if the data you intend to collect from online sources was created by humans to learn more about ethical decision-making of online data. For faculty, staff, and students at UTM, you can contact our Research Office to learn more about [Ethics in Research](https://www.utm.utoronto.ca/vp-research/information-researchers/ethics-research).
