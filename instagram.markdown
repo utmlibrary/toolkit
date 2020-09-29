@@ -24,7 +24,7 @@ Workshop by [Chris Young](mailto:christopher.young@utoronto.ca)
 
 ## 1. About <a name="about"></a>
 
-instagram-scraper is a command-line application written in Python that scrapes and downloads an instagram user's photos and videos. instagram-scraper can be used to gather Instagram data from user accounts, hashtags, and locations including metadata, like user comments. It is important to note that Facebook, the parent-owner of Instagram, prohibits the use of automated scrapers in its [Terms of Use](https://www.facebook.com/help/instagram/1188470931252371). As such, the instagram-scraper along with any automated tools should be used with caution when gathering Instagram data for research purposes. 
+instagram-scraper is a command-line application written in Python that scrapes and downloads an instagram user's photos and videos. instagram-scraper can be used to gather Instagram data from user accounts, hashtags, and locations including metadata, like user comments. It is important to note that Facebook, the parent-owner of Instagram, prohibits the use of automated scrapers in its [Terms of Use](https://www.facebook.com/help/instagram/1188470931252371). As such, the instagram-scraper along with any automated tools should be used with caution when gathering Instagram data for research purposes.
 
 ## 2. Resources <a name="resources"></a>
 
