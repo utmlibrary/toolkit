@@ -193,6 +193,12 @@ This command will download all photos and video files. However, let's say we wan
 
 By default, the ```--comments``` option saves the comment metadata associated with the posts to a json file. If we add other metadata options, like ```--profile-metadata``` or ```--include-location``` we will gather the UTM Library profile metadata and the location of where the posts were created. 
 
+If we want to gather Instagram data from multiple user accounts with our additional options, our command would look like the following:
+
+```instagram-scraper utmlibrary,rgasc_utm,uoftmississaugaresearch --comments --profile-metadata --include-location```
+
+When instagram-scraper has finished gather all the posts in the three Instagram accounts (all UTM accounts in the example), you will find one folder for each account with photos, videos, and a json file that includes the media metadata along with comments, profile, and location metadata associated with each post.
+
 To view the json file you've created you can open the file with a text editor, such as [BBEdit](https://apps.apple.com/us/app/bbedit/id404009241?mt=12) on OSX or [notepad ++](https://notepad-plus-plus.org/downloads/) on Windows.
 
 ### 4.4 Gather Hashtag Data <a name="exercise2"></a>
