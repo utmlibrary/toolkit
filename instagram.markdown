@@ -18,7 +18,6 @@ permalink: /workshops/twarc/
   4.2 [Warm-Up](#warmup)  
   4.3 [Gather User Account Data](#exercise1)  
   4.4 [Gather Hashtag Data](#exercise2)  
-  4.5 [Gather Location Data](#exercise3)  
 5. [Final Thoughts](#final)
 
 Workshop by [Chris Young](mailto:christopher.young@utoronto.ca)
@@ -217,10 +216,6 @@ When instagram-scraper has finished gather all the hashtags you've selected (in 
 If you're gathering hashtags with thousands of posts you can use the ```--filter_location``` and ```--maximum``` options to limit the number of results in your search.
 
 To view the json file you've created you can open the file with a text editor, such as [BBEdit](https://apps.apple.com/us/app/bbedit/id404009241?mt=12) on OSX or [notepad ++](https://notepad-plus-plus.org/downloads/) on Windows.
-
-### 4.5 Gather Location Data <a name="exercise3"></a>
-
-Let's say you want to gather Instagram data on users based on their location. This can be really useful if you're searching a hashtag with thousands (sometimes millions of posts) and you want to limit your search to a specific geographic area. Continuing
 
 ## 5. Final Thoughts <a name="final"></a>
 
