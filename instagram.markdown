@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Instagram-Scraper for Instagram Data
+title: Gather Instagram Data with instagram-scraper
 permalink: /workshops/instagram-scraper/
 ---
 ## Table of Contents
