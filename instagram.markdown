@@ -15,10 +15,10 @@ permalink: /workshops/twarc/
   3.2 [Windows Instructions](#windows)  
   3.3 [OS X Instructions](#osx)  
 4. [Workshop](#workshop)  
-  4.1 [Configuration](#configuration)  
-  4.2 [Warm-Up](#warmup)  
-  4.3 [exercise1](#exercise1)  
-  4.4 [exercise2](#exercise2)  
+  4.1 [Create Research Persona](#persona)  
+  4.2 [Gather User Account Data](#exercise1)  
+  4.3 [Gather Hashtag Data](#exercise2)  
+  4.4 [Gather Location Data](#exercise3)  
 5. [Final Thoughts](#final)
 
 Workshop by [Chris Young](mailto:christopher.young@utoronto.ca)
@@ -62,7 +62,7 @@ Note, these copyright resources only pertain to the [*Copyright Act*](https://la
 
 ## 3. Setup <a name="setup"></a>
 
-### 3.1 Linux Instructions
+### 3.1 Linux Instructions <a name="linux"></a>
 Open the terminal terminal
 
 Most linuz distributions come with python already installed. To check type python --version and/or python3 --version.
@@ -78,14 +78,14 @@ pip3 install instagram-scraper
 instagram-scraper -h
 
 
-### 3.2 Windows Instructions
+### 3.2 Windows Instructions <a name="windows"></a>
 Download and install Python 3.8.5
 Make sure to select Add to PATH
 pip3 --version
 pip3 install instagram-scraper
 
 
-### 3.3 OS X Instructions
+### 3.3 OS X Instructions <a name="osx"></a>
 Download and install Python 3.8.5
 
 Agree to install.
@@ -99,15 +99,15 @@ Then type in pip3 --version. You should receive the message pip 20.2.3.
 You can now install instagram-scraper with the command pip3 install instagram-scraper
 
 Use pip to install instagram-scraper
-## 4. Workshop
+## 4. Workshop <a name="workshop"></a>
 
-### 4.1 Create Research Profile
+### 4.1 Create Research Profile <a name="persona"></a>
 
-### 4.2 Scrape User Accounts
+### 4.2 Gather User Account Data <a name="exercise1"></a>
 
-### 4.3 Scrape Hashtags
+### 4.3 Gather Hashtag Data <a name="exercise2"></a>
 
-### 4.4. Scrape Locations
+### 4.4. Gather Location Data <a name="exercise3"></a>
 
 
-## 5. Final Thoughs
+## 5. Final Thoughts <a name="final"></a>
