@@ -60,20 +60,41 @@ Note, these copyright resources only pertain to the [*Copyright Act*](https://la
 ## 3. Setup <a name="setup"></a>
 
 ### 3.1 Linux Instructions <a name="linux"></a>
+Ubuntu ships with Python 3, as the default Python installation. Complete the following steps to install pip (pip3) for Python 3. Start by updating the package list using the following command in the command line:
 
+```sudo apt update```
 
-Most linuz distributions come with python already installed. To check type python --version and/or python3 --version.
+Once the package list is updated, use the following command to install pip for Python 3:
 
-sudo apt-get update
+```sudo apt install python3-pip```
 
-sudo apt-get install python3.8
+When prompted to select ```yes``` or to type ```y```, please do so to install the package. The command above will also install the dependencies required for building Python modules.
 
-Select y when given the option to continue and hit enter
+Once the installation is complete, verify the installation by checking the pip version:
 
-pip3 install instagram-scraper
+```pip3 --version```
 
-instagram-scraper -h
+The output version my vary, but it will look something like this:
 
+```pip 9.0.1. from /usr/lib/python3/dist-packages (python 3.6)```
+
+Now that pip is installed, we can use it to install twarc. Type and enter the following command into the command line:
+
+```pip3 install instagram-scraper```
+
+It will proceed to download the most recent version of instagram-scraper, which us version 1.9.0. After the script stops running, and you are back to your main window, enter the following command into the terminal:
+
+```instagram-scraper```
+
+If twarc has installed, you will see dozens of lines of commands that end with the following statement:
+
+```ValueError: Must provide username(s) OR a file containing a list of username(s) OR pass --followings-input```
+
+This means instagram-scraper has installed and you need to use an argument after ```instagram-scraper```. If instagram-scraper is not installed on your system it will respond with:
+
+```$ command not found.```
+
+At this point, however, instagram-scraper should be installed successfully. If it is not installed, go through each of the steps above to make sure you did not make a mistake installing pip.
 
 ### 3.2 Windows Instructions <a name="windows"></a>
 Download and install Python 3.8.5
