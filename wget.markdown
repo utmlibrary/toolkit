@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Wget for Webpage Data
+title: Gather Webpage Data with wget
 permalink: /workshops/wget/
 ---
 ## Table of Contents
