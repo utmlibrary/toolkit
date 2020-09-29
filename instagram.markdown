@@ -220,6 +220,7 @@ To view the json file you've created you can open the file with a text editor, s
 
 ### 4.5 Gather Location Data <a name="exercise3"></a>
 
+Let's say you want to gather Instagram data on users based on their location. This can be really useful if you're searching a hashtag with thousands (sometimes millions of posts) and you want to limit your search to a specific geographic area. Continuing
 
 ## 5. Final Thoughts <a name="final"></a>
 
