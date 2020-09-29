@@ -1,6 +1,6 @@
 ---
 layout: page
-title: TWARC for Twitter Data
+title: Gather Twitter Data with twarc
 permalink: /workshops/twarc/
 ---
 ## Table of Contents
