@@ -167,9 +167,11 @@ For this workshop we are going to build an archive of Instagram data using the c
 
 ### 4.2 Warm Up <a name="warmup"></a>
 
-All of the commands in instagram-scraper use the following logic when being used:  
-```instagram-scraper [text] [username] [password] [--options]```  
-instagram-scraper has 
+All of the commands in instagram-scraper use the following logic when being used:
+
+```instagram-scraper [text] [username] [password] [--options]```
+
+instagram-scraper has one query for gathering Instagram data: ```text```. The text query allows you to retrieve all post data pertaining to a user account, hashtag, or location. The query retrieves all data currently associated with an account, hashtag, or location as long as it is not a private account. If an account is set to private that user's Instagram data will be unavailable. The only exception is if you have an account where you are an approved follower and you include the ```[username]``` and ```[password]``` information for your research persona which is an approved followed of the user account you intend to gather Instagram data from.
 
 ### 4.3 Gather User Account Data <a name="exercise1"></a>
 
