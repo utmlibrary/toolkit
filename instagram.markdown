@@ -167,6 +167,9 @@ For this workshop we are going to build an archive of Instagram data using the c
 
 ### 4.2 Warm Up <a name="warmup"></a>
 
+All of the commands in instagram-scraper use the following logic when being used:  
+```instagram-scraper [text] [username] [password] [--options]```  
+instagram-scraper has 
 
 ### 4.3 Gather User Account Data <a name="exercise1"></a>
 
