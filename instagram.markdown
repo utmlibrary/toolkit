@@ -24,7 +24,11 @@ Workshop by [Chris Young](mailto:christopher.young@utoronto.ca)
 
 ## 1. About <a name="about"></a>
 
-instagram-scraper is a command-line application written in Python that scrapes and downloads an instagram user's photos and videos. instagram-scraper can be used to gather Instagram data from user accounts, hashtags, and locations including metadata, like user comments. It is important to note that Facebook, the parent-owner of Instagram, prohibits the use of automated scrapers in its [Terms of Use](https://www.facebook.com/help/instagram/1188470931252371). Specifically, the Terms of Use state, "We prohibit crawling, scraping, caching or otherwise accessing any content on the Service via automated means, including but not limited to, user profiles and photos..." As such, the instagram-scraper along with any automated tools should be used with caution when gathering Instagram data for research purposes.
+instagram-scraper is a command-line application written in Python that scrapes and downloads an instagram user's photos, videos, and metadata. instagram-scraper can be used to gather Instagram data from user accounts, hashtags, and locations including metadata, like user comments. Photos and videos are stored in your folder and metadata are stored as line-oriented JSON.
+
+As you can imagine, instagram-scraper can be quite useful if you are interested in building an archive of Instagram data, which could include posts, comments, geolocation, and numerous metadata that cannot easily be scraped via Instagram’s user interface. However, while instagram-scraper can retrieve almost anything from Instagram it is important to read Instagram's [Terms of Use](https://www.facebook.com/help/instagram/1188470931252371). Specifically, the Terms of Use state, "We prohibit crawling, scraping, caching or otherwise accessing any content on the Service via automated means, including but not limited to, user profiles and photos..." As such, the instagram-scraper along with any automated tools should be used with caution when gathering Instagram data for research purposes.
+
+In the documentation provided in this workshop, we only cover how you can setup instagram-scraper and gather Instagram data, such as user's photos, videos, and metadata. If you are in doubt about whether your research project meets ethics requirements and fair use of copyrighted works you can consult your instituitonal research office and scholarly communications officer. If you do not have access to such resources take a look at our Ethics and Copyright sections below for more information.
 
 ## 2. Resources <a name="resources"></a>
 
@@ -56,7 +60,7 @@ Note, these copyright resources only pertain to the [*Copyright Act*](https://la
 ## 3. Setup <a name="setup"></a>
 
 ### 3.1 Linux Instructions <a name="linux"></a>
-Open the terminal terminal
+
 
 Most linuz distributions come with python already installed. To check type python --version and/or python3 --version.
 
