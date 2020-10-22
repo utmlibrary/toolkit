@@ -21,7 +21,8 @@ permalink: /workshops/wget/
     4.4 [Mirror a Website](#exercise3)
 5. [Final Thoughts](#final)
 
-Workshop by [Chris Young](mailto:christopher.young@utoronto.ca)
+Workshop by [Chris Young](mailto:christopher.young@utoronto.ca)  
+Last updated September 15, 2020
 
 ## 1. About <a name="about"></a>
 
