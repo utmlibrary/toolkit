@@ -25,7 +25,7 @@ Workshop by [Chris Young](mailto:christopher.young@utoronto.ca)
 
 ## 1. About <a name="about"></a>
 
-
+Does your research require you to make a game or a digital storytelling experience? In this introductory workshop attendees will learn how to use the Unity Editor, import art assets, and create a mini-game. Attendees will also get a brief overview of game and story design and go through the process of building and releasing a game application.
 
 ## 2. Resources <a name="resources"></a>
 
