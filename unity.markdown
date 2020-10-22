@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Gather Webpage Data with wget
+title: Introduction to the Unity Editor and Making Games
 permalink: /workshops/unity/
 ---
 ## Table of Contents
