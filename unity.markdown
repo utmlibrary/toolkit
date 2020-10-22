@@ -13,10 +13,10 @@ permalink: /workshops/unity/
     3.1 [Linux Instructions](#linux)  
     3.2 [Windows Instructions](#windows)  
     3.3 [OS X Instructions](#osx)  
-4. [Workshops](#workshops)  
-    4.1 [Warm Up](#warmup)  
-    4.2 [RPG Creator Kit](#exercise1)  
-    4.3 [Build Environment](#exercise2)  
+4. [Workshop: RPG Creator Kit](#workshops)  
+    4.1 [The Editor Interface](#warmup)  
+    4.2 [Build the Environment](#exercise1)  
+    4.3 [Story Items](#exercise2)  
     4.4 [NPCs and Dialogue Trees](#exercise3)  
     4.5 [Quests](#exercise4)
 5. [Final Thoughts](#final)
@@ -36,7 +36,7 @@ There are some fantastic resources out there to learn how to use wget for a vari
 There are also some useful tutorials with a focus on digital research. 
 
 ### 2.2 Copyright <a name="copyright"></a>
-Copyright has an impact on digital research activities, including the copying of files from the internet using wget. Most post-secondary institutions have Scholarly Communication and Copyright offices with copyright guidelines on fair dealing. Check in with your scholarly communication and copyright office if you are not sure your data collection falls under fair dealing. For faculty, staff, and students at UTM, you can contact our [Scholarly Communication Librarian](https://utm.library.utoronto.ca/scholarly-communications) to learn more about copyright fair dealing. The University has also put together a number of resources you can consult if you need a quick-and-fast answer:
+Copyright has an impact on digital research activities, including the use of copyrighted assets, such as images and audio imported into Unity. Most post-secondary institutions have Scholarly Communication and Copyright offices with copyright guidelines on fair dealing. Check in with your scholarly communication and copyright office if you are not sure your data collection falls under fair dealing. For faculty, staff, and students at UTM, you can contact our [Scholarly Communication Librarian](https://utm.library.utoronto.ca/scholarly-communications) to learn more about copyright fair dealing. The University has also put together a number of resources you can consult if you need a quick-and-fast answer:
 
 [Copyright Fair Dealing Guidelines](https://provost.utoronto.ca//wp-content/uploads/sites/155/2018/06/Copyright-Guidelines.pdf)  
 [Copyright Basics](https://onesearch.library.utoronto.ca/sites/default/files/copyright/basicsfaqs_092018.pdf)  
@@ -58,17 +58,17 @@ Note, these copyright resources only pertain to the [*Copyright Act*](https://la
 
 ### 3.3 OS X Instructions <a name="osx"></a>
 
-## 4. Workshops <a name="workshops"></a>
+## 4. Workshop: RPG Creator Kit <a name="workshops"></a>
 
-### 4.1 Warm-Up <a name="warmup"></a>
+### 4.1 The Editor Interface <a name="warmup"></a>
 
 Familiarize with the interface
 
-### 4.2 RPG Creator Kit <a name="exercise1"></a>
+### 4.2 Build the Environment <a name="exercise1"></a>
 
 Download and install creator kit
 
-### 4.3 Build Environment <a name="exercise2"></a>
+### 4.3 Story Items <a name="exercise2"></a>
 
 Build the environment for the game
 
@@ -82,5 +82,5 @@ Create quests with non-player characters and objects
 
 ## 5. Final Thoughts <a name="final"></a>
 
-As you become increasingly comfortable with the command line, you will find wget a helpful addition to your digital research toolkit. If there is an entire set of archival documents that you want to download for text mining, if they’re arranged in a directory and are all together (which is not as common as one might think), a quick wget command will be quicker than scraping the links with Python. Similarly, you can then begin downloading things directly from your command line: programs, files, backups, etc. You will soon find that wget may be a first option for you to research all kinds of web content!
+
 
