@@ -20,7 +20,8 @@ permalink: /workshops/instagram-scraper/
   4.4 [Gather Hashtag Data](#exercise2)  
 5. [Final Thoughts](#final)
 
-Workshop by [Chris Young](mailto:christopher.young@utoronto.ca)
+Workshop by [Chris Young](mailto:christopher.young@utoronto.ca)  
+Last updated September 28, 2020
 
 ## 1. About <a name="about"></a>
 
