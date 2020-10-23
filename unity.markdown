@@ -18,7 +18,8 @@ permalink: /workshops/unity/
     4.2 [Build the Environment](#exercise1)  
     4.3 [Story Items](#exercise2)  
     4.4 [NPCs and Dialogue Trees](#exercise3)  
-    4.5 [Quests](#exercise4)
+    4.5 [Quests](#exercise4)  
+    4.6 [Build and Publish](#exercise5)
 5. [Final Thoughts](#final)
 
 Workshop by [Chris Young](mailto:christopher.young@utoronto.ca)
@@ -79,6 +80,10 @@ Create characters and dialogue trees
 ### 4.4 Quests <a name="exercise4"></a>
 
 Create quests with non-player characters and objects
+
+### 4.5 Build and Publish <a name="exercise5"></a>
+
+How to build and publish your game.
 
 ## 5. Final Thoughts <a name="final"></a>
 
