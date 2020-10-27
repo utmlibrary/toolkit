@@ -23,6 +23,7 @@ permalink: /workshops/unity/
 5. [Final Thoughts](#final)
 
 Workshop by [Chris Young](mailto:christopher.young@utoronto.ca)
+Last edited October 27, 2020
 
 ## 1. About <a name="about"></a>
 
