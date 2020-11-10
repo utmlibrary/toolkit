@@ -22,6 +22,7 @@ permalink: /workshops/twarc/
 5. [Final Thoughts](#final)
 
 Workshop by [Chris Young](mailto:christopher.young@utoronto.ca)
+Last updated November 10, 2020
 
 ## 1. About <a name="about"></a>
 
