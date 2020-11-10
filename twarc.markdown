@@ -55,7 +55,7 @@ A good first resource to consult if you are wantin a quick-and-fast answer to yo
 [Chart for Internet Researcher Ethics](https://aoir.org/wp-content/uploads/2017/01/aoir_ethics_graphic_2016.pdf)
 
 ### 2.3 Copyright <a name="copyright"></a>
-Copyright has an impact on digital research activities, including the copying of files from the internet using wget. Most post-secondary institutions have Scholarly Communication and Copyright offices with copyright guideliens on fair dealing. Check in with your scholarly communication and copyright office if you are sure your data collection falls under fair dealing. For faculty, staff, and students at UTM, you can contact our [Scholarly Communication Librarian](https://utm.library.utoronto.ca/scholarly-communications) to learn more about copyright fair dealing. The University has also put together a number of resources you can consult if you need a quick-and-fast answer:
+Copyright has an impact on digital research activities, including the copying of files from the internet using twarc. Most post-secondary institutions have Scholarly Communication and Copyright offices with copyright guideliens on fair dealing. Check in with your scholarly communication and copyright office if you are sure your data collection falls under fair dealing. For faculty, staff, and students at UTM, you can contact our [Scholarly Communication Librarian](https://utm.library.utoronto.ca/scholarly-communications) to learn more about copyright fair dealing. The University has also put together a number of resources you can consult if you need a quick-and-fast answer:
 
 [Copyright Fair Dealing Guidelines](https://provost.utoronto.ca//wp-content/uploads/sites/155/2018/06/Copyright-Guidelines.pdf)  
 [Copyright Basics](https://onesearch.library.utoronto.ca/sites/default/files/copyright/basicsfaqs_092018.pdf)  
@@ -71,7 +71,7 @@ Note, these copyright resources only pertain to the [*Copyright Act*](https://la
 
 ## 3. Setup <a name="setup"></a>
 
-Before we start the workshop component of how to build an archive of Twitter data with the command line tool twarc, there is some there is some preliminary setup we have to complete on your computer and with Twitter. Since twarc is used through the command line, we have to install packages onto your computer for it work. Depending on which operating system you use, setup can be straightforward or the most time consuming aspect of learning how to use twarc. Below are installation instructions for Linux, Windows, and OS X users. Once wget is installed on each system, the instructions will be the same for every user participating in the workshop.
+Before we start the workshop component of how to build an archive of Twitter data with the command line tool twarc, there is some preliminary setup we have to complete on your computer and with Twitter. Since twarc is used through the command line, we have to install packages onto your computer for it work. Depending on which operating system you use, setup can be straightforward or the most time consuming aspect of learning how to use twarc. Below are installation instructions for Linux, Windows, and OS X users. Once twarc is installed on each system, the instructions will be the same for every user participating in the workshop.
 
 Before we install twarc we need to register an application at [developer.twitter.com](https://developer.twitter.com/en/apps). To do this you will need a Twitter account and then register as a developer. Once these steps are completed you can register an application by clicking the ```create an app``` icon. The app is required to generate the API keys we need to interact with twarc to build an archive of data. To create the app there are a series of required fields which need to be filled out, including: App name, Application Description, Website URL, and Tell us how this app will be used. There is no magic recipe to filling out the form. However, it is important that you emphasize the app is for research purposes only as you are not using the app for commercial or government purposes. I used the following information when I created the application:
 
@@ -107,7 +107,7 @@ Now that pip is installed, we can use it to install twarc. Type and enter the fo
 
 ```pip3 install twarc```
 
-It will proceed to download the most recent version of twarc, which is wget 1.75. After the script stops running, and you are back to your main window, enter the following command into the terminal:
+It will proceed to download the most recent version of twarc, which is twarc 1.10. After the script stops running, and you are back to your main window, enter the following command into the terminal:
 
 ```twarc```
 
@@ -162,7 +162,7 @@ Now that pip is installed, we can use it to install twarc. Type and enter the fo
 
 ```pip3 install twarc```
 
-It will proceed to download the most recent version of twarc, which is wget 1.75. After the script stops running, and you are back to your main window, enter the following command into the terminal:
+It will proceed to download the most recent version of twarc, which is twarc 1.10. After the script stops running, and you are back to your main window, enter the following command into the terminal:
 
 ```twarc```
 
@@ -205,7 +205,7 @@ With Homebrew installed, we now have to install twarc. This is now an easy step.
 
 ```brew install twarc```
 
-It will proceed to download the most recent version of twarc, which is wget 1.75. After the script stops running, and you are back to your main window, enter the following command into the terminal:
+It will proceed to download the most recent version of twarc, which is twarc 1.10. After the script stops running, and you are back to your main window, enter the following command into the terminal:
 
 ```twarc```
 
@@ -223,7 +223,7 @@ At this point, however, twarc should be installed successfully. If it is not ins
 
 Does your research require you to build an archive of Twitter data? In this workshop attendees will learn how to scrape tweets with the TWARC program in your command line interface without going through the tedious process of manually downloading tweets. Participants will also be guided through the process of cleaning up Twitter data once it’s downloaded.
 
-For this workshop we are going to build an archive of Twitter data using the command line tool twarc. We are going to walk through a few exercises using twarc in your operating system’s command line interface: terminal for Linux and OS X and Ubuntu for Windows. If you have followed the setup instructions to install wget on your Linux, Windows, or OS X machines then you are ready to begin the workshop.
+For this workshop we are going to build an archive of Twitter data using the command line tool twarc. We are going to walk through a few exercises using twarc in your operating system’s command line interface: terminal for Linux and OS X and Ubuntu for Windows. If you have followed the setup instructions to install twarc on your Linux, Windows, or OS X machines then you are ready to begin the workshop.
 
 ### 4.1 Configuration <a name="configuration"></a>
 At this point you should have twarc installed and have created your app with Twitter. Now, we need to configure twarc with your app credentials. On the developer.twitter.com interface you will be able to view your app. When you open the app, you will need to view the ```keys and tokens```. Note, the ```Consumer API Keys```, whih includes a ```API key``` and ```API secret key```.
@@ -247,7 +247,7 @@ Twarc has two main queries for gather tweets: ```search``` and ```filter```. The
 
 For example, you could use the following command to gather tweets on COVID-19 from accounts tweeting in Toronto as they happen, where the query is ```filter``` and the filter is ```geocode```:
 
-```twarc filter coronavirus --geocode 43.653226,-79.383184,10mi > coronavirustweetsastheyhappen.jsonl```
+```twarc filter covid19 --geocode 43.653226,-79.383184,10mi > coronavirustweetsastheyhappen.jsonl```
 
 If you want to gather tweets for a few days, a month, or a year, you let the command run in the terminal for the period of time you require. If you want to gather tweets from the previous week, can can swap out the ```filter``` query for ```search```, so you're command looks like this:
 
@@ -266,11 +266,11 @@ Let's say you want to gather Twitter data on users around a given topic that is 
 
 For this exercise, we want to gather tweets on COVID-19, which are differentiated here for search and filter:
 
-```twarc search covid19, covid-19, coronavirus,corona virus > covid19search.jsonl```  
+```twarc search covid, covid19, covid-19, coronavirus, corona virus > covid19search.jsonl```  
 or  
-```twarc filter covid19, covid-19, coronavirus,corona virus > coronavirussearch.jsonl```
+```twarc filter covid, covid19, covid-19, coronavirus, corona virus > coronavirussearch.jsonl```
 
-Note, we are using four variants of COVID-19 to capture the term as it's been used on Twitter.
+Note, we are using five variants of COVID-19 to capture the term as it's been used on Twitter.
 
 Using either of these commands will gather all tweets on Twitter using the term. However, we will want to delmit this information either by geolocation and/or language.
 
