@@ -21,7 +21,7 @@ permalink: /workshops/twarc/
   4.4 [Gather by Twitter Account](#exercise2)  
 5. [Final Thoughts](#final)
 
-Workshop by [Chris Young](mailto:christopher.young@utoronto.ca)
+Workshop by [Chris Young](mailto:christopher.young@utoronto.ca)  
 Last updated November 10, 2020
 
 ## 1. About <a name="about"></a>
