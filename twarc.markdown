@@ -47,15 +47,15 @@ There are also some useful tutorials on how to use twarc by several libraries wi
 [McGill University Library's text data mining guide](https://libraryguides.mcgill.ca/c.php?g=702813&p=5064861)
 
 ### 2.2 Ethics <a name="ethics"></a>
-Digital research ethics of online material is a constantly moving fence. Most post-secondary institutions have Research Offices with policies on the use of human data, which can include data posted on social media posted behind password protested accounts. Check in with your research office if the data you intend to collect from online sources was created by humans to learn more about ethical decision-making of online data. For faculty, staff, and students at UTM, you can contact our Research Office to learn more about [Ethics in Research](https://www.utm.utoronto.ca/vp-research/information-researchers/ethics-research).
+Digital research ethics of online material is a constantly moving fence. Most post-secondary institutions have Research Offices with policies on the use of human data, which can include data posted on social media posted behind password protected accounts. Check in with your research office if the data you intend to collect from online sources was created by humans to learn more about ethical decision-making of online data. For faculty, staff, and students at UTM, you can contact our Research Office to learn more about [Ethics in Research](https://www.utm.utoronto.ca/vp-research/information-researchers/ethics-research).
 
-A good first resource to consult if you are wantin a quick-and-fast answer to your ethical decision-making of online data is the [Association of Internet Research's](https://aoir.org/) recommendations from its [Ethical Working Committee](https://aoir.org/ethics/). The Committee is constantly updating its documentation and its current recommendations along with a condensed information chart are a good starting point to determine your research ethics:
+A good first resource to consult if you want a quick-and-fast answer to your ethical decision-making of online data is the [Association of Internet Research's](https://aoir.org/) recommendations from its [Ethical Working Committee](https://aoir.org/ethics/). The Committee is constantly updating its documentation and its current recommendations along with a condensed information chart are a good starting point to determine your research ethics:
 
 [Ethical Decision-Making and Internet Research](https://aoir.org/reports/ethics3.pdf)  
 [Chart for Internet Researcher Ethics](https://aoir.org/wp-content/uploads/2017/01/aoir_ethics_graphic_2016.pdf)
 
 ### 2.3 Copyright <a name="copyright"></a>
-Copyright has an impact on digital research activities, including the copying of files from the internet using twarc. Most post-secondary institutions have Scholarly Communication and Copyright offices with copyright guideliens on fair dealing. Check in with your scholarly communication and copyright office if you are sure your data collection falls under fair dealing. For faculty, staff, and students at UTM, you can contact our [Scholarly Communication Librarian](https://utm.library.utoronto.ca/scholarly-communications) to learn more about copyright fair dealing. The University has also put together a number of resources you can consult if you need a quick-and-fast answer:
+Copyright has an impact on digital research activities, including the copying of files from the internet using twarc. Most post-secondary institutions have Scholarly Communication and Copyright offices with copyright guidelines on fair dealing. Check in with your scholarly communication and copyright office if you are sure your data collection falls under fair dealing. For faculty, staff, and students at UTM, you can contact our [Scholarly Communication Librarian](https://utm.library.utoronto.ca/scholarly-communications) to learn more about copyright fair dealing. The University has also put together a number of resources you can consult if you need a quick-and-fast answer:
 
 [Copyright Fair Dealing Guidelines](https://provost.utoronto.ca//wp-content/uploads/sites/155/2018/06/Copyright-Guidelines.pdf)  
 [Copyright Basics](https://onesearch.library.utoronto.ca/sites/default/files/copyright/basicsfaqs_092018.pdf)  
@@ -272,7 +272,7 @@ or
 
 Note, we are using five variants of COVID-19 to capture the term as it's been used on Twitter.
 
-Using either of these commands will gather all tweets on Twitter using the term. However, we will want to delmit this information either by geolocation and/or language.
+Using either of these commands will gather all tweets on Twitter using the term. However, we will want to delimit this information either by geolocation and/or language.
 
 As noted in the warm up section, you could use ```geocode``` to limit tweets by a geolocation, like Toronto:
 
@@ -289,7 +289,7 @@ or
 As you can see from this example, we differentiated the search and filter commands by the location of Montreal and the language French. This type of filter can be useful when you're trying to get a sense of how a specific community in a geolocation tweets about a topic.
 
 ### 4.4 Gather by Twitter Account <a name="exercise2"></a>
-Another strategy to gather Twitter data is by selecting specific Twitter accounts. As noted in the warm section, you can gather tweets as they happen using the ```filter``` query and the past week's tweets using the ```search```.
+Another strategy to gather Twitter data is by selecting specific Twitter accounts. As noted in the warm-up section, you can gather tweets as they happen using the ```filter``` query and the past week's tweets using the ```search```.
 
 For this exercise, we want to gather tweets sent out by specific organizations on COVID-19, which are differentiated here for search and filter. Note, we use the ```follow``` command followed by the userid of the Twitter account. To get the userid of an account, [GetTwitterID](http://gettwitterid.com/) can generate a userid using the twitter handle as input. In the case of this example, we are gathering all tweets from the World Health Organization on the coronavirus:
 
