@@ -122,33 +122,7 @@ This means twarc has installed and you need to use an argument after twarc. If t
 At this point, however, twarc should be installed successfully. If it is not installed, go through each of the steps above to make sure you did not make a mistake installing pip.
 
 ### 3.2 Windows Instructions <a name="windows"></a>
-To install twarc we have to activate the Windows Subsystem for Linux (WSL) and install a Linux distro (i.e., command line). For this workshop we will use the Ubuntu application on Windows, but first we have to activite the WSL.
-
-To activate the WSL, open Powershell as an Administrator. To do this, type in Powershell in the Windows search bar in the bottom left corner of your screen. The application Windows Powershell Ise will appear. On the right-hand side of the window will be the option 'Run as administrator'. Select Run as administrator and enter your administrative login credentials if prompted. If you do not run Powershell as an administrator the next step will not work.
-
-In the Powershell terminal that opens up, copy and paste the following command and hit enter:
-
-```Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux```
-
-Restart your computer when prompted to do so.
-
-Once your computer has restarted, open the Microsoft Store. You can access the Microsoft Store by typing Microsoft Store in the Windows search bar and select open from the right-hand side of the window. When the Microsoft Store opens, type 'Ubuntu' into the search bar. Several Ubuntu applications will appear in the search results. Select the app that is only titled 'Ubuntu' and developed by Canonical Group Limited.
-
-Click install and wait for the Ubuntu application for Windows to install. Once the application has installed, type Ubuntu in the Windows search bar and open the application. Note, you do not need to Run as administrator for this application. The Ubuntu application will take approximately 5 to 10 minutes to install, so do not worry if it does not open right away.
-
-When Ubuntu opens for the first time you will be propted to create a username and password. Create your username and hit enter. Create your password and hit enter. A re-enter password prompt will appear and you re-enter your password. Your username and password should now be created. Whenever you open Ubuntu and try to install software you will be prompted for your username and password.
-
-Now that Ubuntu is installed and you have created a username and password we can go ahead and install Pip. Pip is a package management system that simplifies installation and management of software packages written in Python, such as twarc. Pip is not installed by default on Ubuntu 18.04, but the installation is pretty straightforward.
-
-Ubuntu 18.04 ships with Python 3, as the default Python installation. Complete the following steps to install pip (pip3) for Python 3. Start by updating the package list using the following command:
-
-```sudo apt update```
-
-Once the package list is updated, use the following command to install pip for Python 3:
-
-```sudo apt install python3-pip```
-
-When prompted to select ```yes``` or to type ```y```, please do so to install the package. The command above will also install the dependencies required for building Python modules.
+The easiest way for Windows machines is to download and install Python. To do so, download the latest version of Python from the [python.org website](https://www.python.org/downloads/)(as of writing it is version 3.8.5). When you have downloaded the Python package you will need to open it and install it. Before you click through the agreement, make sure you select ```Add to PATH``` in the options window. This is critical as it will add your installation of Python 3.8.5 to your PATH for use in the command prompt. 
 
 Once the installation is complete, verify the installation by checking the pip version:
 
@@ -156,7 +130,7 @@ Once the installation is complete, verify the installation by checking the pip v
 
 The output version my vary, but it will look something like this:
 
-```pip 9.0.1. from /usr/lib/python3/dist-packages (python 3.6)```
+```pip 20.2.3 from [YOUR DIRECTORY] (python 3.8)```
 
 Now that pip is installed, we can use it to install twarc. Type and enter the following command into the command line:
 
