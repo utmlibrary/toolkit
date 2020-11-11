@@ -226,11 +226,11 @@ Let's say you want to gather Twitter data on users around a given topic that is 
 
 For this exercise, we want to gather tweets on COVID-19, which are differentiated here for search and filter:
 
-```twarc search covid, covid19, covid-19, coronavirus, corona virus > covid19search.jsonl```  
+```twarc search covid, covid19,coronavirus,corona virus > covid19search.jsonl```  
 or  
-```twarc filter covid, covid19, covid-19, coronavirus, corona virus > coronavirussearch.jsonl```
+```twarc filter covid,covid19,coronavirus,corona virus > coronavirussearch.jsonl```
 
-Note, we are using five variants of COVID-19 to capture the term as it's been used on Twitter.
+Note, we are using four variants of COVID-19 to capture the term as it's been used on Twitter.
 
 Using either of these commands will gather all tweets on Twitter using the term. However, we will want to delimit this information either by geolocation and/or language.
 
