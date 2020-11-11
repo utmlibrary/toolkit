@@ -177,33 +177,19 @@ This means twarc has installed and you need to use an argument after twarc. If t
 At this point, however, twarc should be installed successfully. If it is not installed, go through each of the steps above to make sure you did not make a mistake installing pip.
 
 ### 3.3 OS X Instructions <a name="osx"></a>
-To install twarc on OS X there are several dependencies we need to install, including Apple's Command Line Tools and Homebrew. This requires downloading XCode. If you have the App Store, you should be able to just download XCode.  If not, the following instructions will work.
+The easiest way for Windows machines is to download and install Python. To do so, download the latest version of Python from the [python.org website](https://www.python.org/downloads/)(as of writing it is version 3.8.5). When you have downloaded the Python package you will need to open it and install it. After you click through the installation process you will need to verify the Python certifications and update your terminal shell. In the finder window for Python 3.8 click on the "Install Certificates.command" to verify Python packages. This will open up the Terminal to update the Python certificates. Wait until you read the message ```[Process completed]```. Close the terminal, then click on "Update Shell Profile.command" to update the terminal. This updates the Terminal in your bin directory so you can access python from the terminal. Wait until you read the message ```[Process completed]```. Close the terminal.
 
-To download this, go to the Apple Developer website, register as a developer, and then in the downloads for Apple developers section you will need to find the correct version. If not, you will need to click on the link: “Looking for additional developer tools? View Downloads.”
+Open a new terminal and verify the installation is complete by checking the pip version:
 
-After logging in with your free developer credentials, you will see a long list. Type ```xcode``` in the search bar and find a version that is compatible with your operating system version. This may take some clicking around to find the right version for you. For example, Xcode 3.2 is the version for OS X 10.6 Snow Leopard, 3.0 is the version for OS X 10.5 Leopard, etc.
+```pip3 --version```
 
-It is a big download, and will take some time. Once you have the file, install it (when I timed the download it took almost 15 minutes!).
+The output version my vary, but it will look something like this:
 
-You will need to install the ‘Command Line Tools’ kit in XCode. Open up the ‘Preferences’ tab, click on ‘Downloads,’ and then click ‘Install’ next to Command Line Tools. We are now ready to install a package manager.
+```pip 20.2.3 from [YOUR DIRECTORY] (python 3.8)```
 
-The easiest package manager to install is Homebrew. Go to https://brew.sh and review the instructions. There are many important commands, like Jekyll, that are not included by default in OS X. This program facilitates the downloading and installation of all required files.
+Now that pip is installed, we can use it to install instagram-scraper. Type and enter the following command into the command line:
 
-To install Homebrew, open up your terminal window and type the following:
-
-```/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
-
-This uses the ruby programming language, built into OS X, to install Homebrew. If prompted to press ```RETURN``` hit returnTo see if the installation worked, type the following into your terminal window:
-
-```brew```
-
-A list of documentation options should appear if it has been installed. We have one more command to run to make sure everything is working, which is:
-
-```brew doctor```
-
-With Homebrew installed, we now have to install twarc. This is now an easy step.
-
-```brew install twarc```
+```pip3 install twarc```
 
 It will proceed to download the most recent version of twarc, which is twarc 1.10. After the script stops running, and you are back to your main window, enter the following command into the terminal:
 
