@@ -33,9 +33,7 @@ As you can imagine, the Unity Editor can be quite useful if you are interested i
 
 ## 2. Resources <a name="resources"></a>
 
-There are some fantastic resources out there to learn how to use the Unity Editor and to create engaging storytelling experiences. The most important resource to consult is the Unity Learn Platform which provides a rich catalogue of live and asynchronous workshops to explore the Editor's functionalities, plugins, and assets like the role-playing game package we will delve into further.
-
-
+There are some fantastic resources out there to learn how to use the Unity Editor and to create engaging storytelling experiences. The most important resource to consult is the [Unity Learn Platform](https://learn.unity.com/) which provides a rich catalogue of live and asynchronous workshops to explore the Editor's functionalities, plugins, and assets. The [RPG Creator Kit](https://learn.unity.com/project/creator-kit-rpg) tutorial provided by Unity Learn will be of particular value as large parts of the tutorial are used or adapted for this workshop. A final resource to consult is the [*Elements of Game Design*](https://mitpress.mit.edu/books/elements-game-design) by Robert Zubek. The text is a very accessible and short volume on game design and will be of particular interest for creators looking to learn more about game design.
 
 ### 2.1 Tutorials <a name="tutorials"></a>
 
