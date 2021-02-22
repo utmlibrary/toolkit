@@ -32,15 +32,18 @@ The Unity Editor is a real-time 3D production tool for rendering photo-realistic
 As you can imagine, the Unity Editor can be quite useful if you are interested in building a digital storytelling experience that contains a variety of digital content. Creations with the Editor can range from 2D and 3D games to interactive fiction to animated shorts. In the documentation provided in this workshop, we only cover how you can create a role-playing game (RPG) using a pre-fabricated package of assets provided by Unity--meaning, we will show you how to make a game from beginning to end. However, Unity is incredibly robust, including the package of assets we will be using. So, while the intended length of this workshop is approximately 2 hours, you may find yourself spending dozens of hours creating additional content, designing your storytelling experience, and expanding the scale of your game's digital world. 
 
 ## 2. Resources <a name="resources"></a>
-
 There are some fantastic resources out there to learn how to use the Unity Editor and to create engaging storytelling experiences. The most important resource to consult is the [Unity Learn Platform](https://learn.unity.com/) which provides a rich catalogue of live and asynchronous workshops to explore the Editor's functionalities, plugins, and assets. The [RPG Creator Kit](https://learn.unity.com/project/creator-kit-rpg) tutorial provided by Unity Learn will be of particular value as large parts of the tutorial are used or adapted for this workshop. A final resource to consult is the [*Elements of Game Design*](https://mitpress.mit.edu/books/elements-game-design) by Robert Zubek. The text is a very accessible and short volume on game design and will be of particular interest for creators looking to learn more about game design.
 
 ### 2.1 Tutorials <a name="tutorials"></a>
+In addition to the important resources outlined above, there are a number of tutorials out there that assist you in becoming a more proficient game designer with the Unity Editor. While there are dozens, if not hundreds, of excellent tutorials out there, these are some of resources I found to be most useful in gaining proviciency in making Unity-based games:
 
-There are also some useful tutorials with a focus on digital research. 
+[]()
+[]()
 
-### 2.2 Copyright <a name="copyright"></a>
-Copyright has an impact on digital research activities, including the use of copyrighted assets, such as images and audio imported into Unity. Most post-secondary institutions have Scholarly Communication and Copyright offices with copyright guidelines on fair dealing. Check in with your scholarly communication and copyright office if you are not sure your data collection falls under fair dealing. For faculty, staff, and students at UTM, you can contact our [Scholarly Communication Librarian](https://utm.library.utoronto.ca/scholarly-communications) to learn more about copyright fair dealing. The University has also put together a number of resources you can consult if you need a quick-and-fast answer:
+### 2.1 Copyright <a name="copyright"></a>
+Copyright has an impact on digital storytelling activities, including the use of copyrighted assets, such as images and audio imported into Unity. Many digital storytelling experiences will use graphics and sounds from online resositories to build 
+
+Most post-secondary institutions have Scholarly Communication and Copyright offices with copyright guidelines on fair dealing. Check in with your scholarly communication and copyright office if you are not sure your data collection falls under fair dealing. For faculty, staff, and students at UTM, you can contact our [Scholarly Communication Librarian](https://utm.library.utoronto.ca/scholarly-communications) to learn more about copyright fair dealing. The University has also put together a number of resources you can consult if you need a quick-and-fast answer:
 
 [Copyright Fair Dealing Guidelines](https://provost.utoronto.ca//wp-content/uploads/sites/155/2018/06/Copyright-Guidelines.pdf)  
 [Copyright Basics](https://onesearch.library.utoronto.ca/sites/default/files/copyright/basicsfaqs_092018.pdf)  
