@@ -27,9 +27,7 @@ Last edited October 27, 2020
 
 ## 1. About <a name="about"></a>
 
-The Unity Editor is a real-time 3D production tool for rendering photo-realistic animations, graphics, and models in an array of digital design contexts. The Unity Editor is used across several industries, including games and cross-reality, television and film, architecture and construction, automotive, transportation, and manufacturing. Similar to Adobe's Photoshop and Autodesk's Maya, the Unity Editor is a powerful resource in the creation of digital content to create storytelling experiences.
-
-
+The Unity Editor is a real-time 3D production tool for rendering photo-realistic animations, graphics, and models in an array of digital design contexts. The Editor is used across several industries, including games and cross-reality, television and film, architecture and construction, automotive, transportation, and manufacturing. As an all-in-one digital tool, the Editor contains dozens of functions and plugins to design a complete storytelling experience from concept to distribution. Creators can synchronize graphics, animations, sounds, text, and the user interface all within the Editor. The Unity Editor is a powerful resource in the creation of digital content to create storytelling experiences for players and users.
 
 ## 2. Resources <a name="resources"></a>
 
