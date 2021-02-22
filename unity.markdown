@@ -52,7 +52,7 @@ If you're wanting to get stuck into a specific genre of game design through a pr
 [Roguelike: 2D Roguelike by Unity Learn](https://learn.unity.com/project/2d-roguelike-tutorial)
 
 ### 2.1 Copyright <a name="copyright"></a>
-Copyright has an impact on digital storytelling projects, including the use of copyrighted assets, such as images and audio imported into Unity. Many digital storytelling experiences will use graphics and sounds from online repositories to build their game's environment. It's critical licenses are acquired in the process of using these downloadable assets. In most cases licenses are provided with assets when you download then, but it's important you check that you are allowed to use the asset for the purposes you intend under its license terms.
+Copyright has an impact on digital storytelling projects, including the use of copyrighted assets, such as images and audio imported into Unity. Many digital storytelling experiences will use graphics and sounds from online repositories to build their game's environment. In most cases licenses are provided with the assets when they are downloaded, but it's critical that you check the asset's license terms before you use it.
 
 Most post-secondary institutions have Scholarly Communication and Copyright offices with copyright guidelines on fair dealing. Check in with your scholarly communication and copyright office if you are not sure your data collection falls under fair dealing. For faculty, staff, and students at UTM, you can contact our [Scholarly Communication Librarian](https://utm.library.utoronto.ca/scholarly-communications) to learn more about copyright fair dealing. The University has also put together a number of resources you can consult if you need a quick-and-fast answer:
 
