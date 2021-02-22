@@ -33,7 +33,9 @@ As you can imagine, the Unity Editor can be quite useful if you are interested i
 
 ## 2. Resources <a name="resources"></a>
 
-There are some fantastic resources out there to learn how to use wget for a variety of purposes beyond digital research.
+There are some fantastic resources out there to learn how to use the Unity Editor and to create engaging storytelling experiences. The most important resource to consult is the Unity Learn Platform which provides a rich catalogue of live and asynchronous workshops to explore the Editor's functionalities, plugins, and assets like the role-playing game package we will delve into further.
+
+
 
 ### 2.1 Tutorials <a name="tutorials"></a>
 
