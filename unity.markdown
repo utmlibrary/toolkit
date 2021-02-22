@@ -13,7 +13,7 @@ permalink: /workshops/unity/
     3.1 [Install Unity Hub](#unityhub)  
     3.2 [Create Account](#unityaccount)  
     3.3 [Install Engine Version](#unityversion)  
-    3.4 [Install RPG Creator Kit Project] (#unityproject)  
+    3.4 [Install RPG Creator Kit Project](#unityproject)  
 4. [Workshop: RPG Creator Kit](#workshops)  
     4.1 [The Editor Interface](#warmup)  
     4.2 [Build the Environment](#exercise1)  
@@ -72,13 +72,13 @@ Note, these copyright resources only pertain to the [*Copyright Act*](https://la
 ## 3. Setup <a name="setup"></a>
 The Unity Editor operates on Windows, OS X, and Linux operating systems. 
 
-### 3.1 Install Unity Hub
+### 3.1 Install Unity Hub <a name="unityhub"></a>
 
-### 3.2 Create Account
+### 3.2 Create Account <a name="unityaccount"></a>
 
-### 3.3 Install Engine Version
+### 3.3 Install Engine Version <a name="unityversion"></a>
 
-### 3.4 Install RPG Creator Kit Project
+### 3.4 Install RPG Creator Kit Project <a name="unityproject"></a>
 
 ## 4. Workshop: RPG Creator Kit <a name="workshops"></a>
 
