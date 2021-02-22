@@ -41,15 +41,15 @@ In addition to the important resources outlined above, there are a number of tut
 [edX: Introduction to Video Game Development with Unity](https://www.edx.org/course/introduction-to-video-game-development-with-unity)  
 [Coursera: Game Design and Development with Unity 2020 Specialization](https://www.coursera.org/specializations/game-design-and-development)
 [Bracekeys YouTube: Unity Beginner Tutorials](https://www.youtube.com/playlist?list=PLPV2KyIb3jR5QFsefuO2RlAgWEz6EvVi6)  
-[]()
+[LinkedIn Learning: Unity 3D 2019 Essential Training](https://www.linkedin.com/learning-login/share?account=76812730&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Funity-3d-2019-essential-training%3Ftrk%3Dshare_ent_url%26shareId%3DLL4sq0plT7iEUdBLZYxlnA%253D%253D)
 
 If you're wanting to get stuck into a specific genre of game design through a project-based learning approach, I'd recommend the following tutorials:
 
-[]()  
-[]()  
-[]()  
-[]()  
-[]()
+[Interactive Fiction: inky plugin for the by Inkle Studio](https://www.inklestudios.com/ink/)  
+[Walkthrough Simulator: First Person Exploration Toolkit by While Fun Games](http://whilefun.com/fpekit)  
+[Platformer: Platformer Microgame by Unity Learn](https://learn.unity.com/project/2d-platformer-template)  
+[First Person Shooter: FPS Microgame by Unity Learn](https://learn.unity.com/project/fps-template)  
+[Roguelike: 2D Roguelike by Unity Learn](https://learn.unity.com/project/2d-roguelike-tutorial)
 
 ### 2.1 Copyright <a name="copyright"></a>
 Copyright has an impact on digital storytelling activities, including the use of copyrighted assets, such as images and audio imported into Unity. Many digital storytelling experiences will use graphics and sounds from online resositories to build 
