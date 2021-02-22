@@ -27,7 +27,7 @@ Last edited October 27, 2020
 
 ## 1. About <a name="about"></a>
 
-Does your research require you to make a game or a digital storytelling experience? In this introductory workshop attendees will learn how to use the Unity Editor, import art assets, and create a mini-game. Attendees will also get a brief overview of game and story design and go through the process of building and releasing a game application.
+The Unity Editor is a real-time production tool that can be used to make games, animations, models, applications, and a variety of 3D and 2D digital content. Unity is used in numerous insustries, such as games, television and film, architecture and construction, and automotive
 
 ## 2. Resources <a name="resources"></a>
 
