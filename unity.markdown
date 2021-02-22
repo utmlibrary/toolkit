@@ -10,9 +10,10 @@ permalink: /workshops/unity/
     2.1 [Tutorials](#tutorials)   
     2.2 [Copyright](#copyright)
 3. [Setup](#setup)  
-    3.1 [Linux Instructions](#linux)  
-    3.2 [Windows Instructions](#windows)  
-    3.3 [OS X Instructions](#osx)  
+    3.1 [Install Unity Hub](#unityhub)  
+    3.2 [Create Account](#unityaccount)  
+    3.3 [Install Engine Version](#unityversion)  
+    3.4 [Install RPG Creator Kit Project] (#unityproject)  
 4. [Workshop: RPG Creator Kit](#workshops)  
     4.1 [The Editor Interface](#warmup)  
     4.2 [Build the Environment](#exercise1)  
@@ -69,12 +70,15 @@ Council of Ministers of Education's [fair dealing decision tool](http://www.fair
 Note, these copyright resources only pertain to the [*Copyright Act*](https://laws-lois.justice.gc.ca/eng/acts/C-42/) for fair dealing in Canada and does not cover copyright in other jurisdictions. For international researchers please consult your own scholarly communication and copyright offices and resources on fair use or fair dealing of copyrighted works in digital research.
 
 ## 3. Setup <a name="setup"></a>
+The Unity Editor operates on Windows, OS X, and Linux operating systems. 
 
-### 3.1 Linux Instructions <a name="linux"></a>
+### 3.1 Install Unity Hub
 
-### 3.2 Windows Instructions <a name="windows"></a>
+### 3.2 Create Account
 
-### 3.3 OS X Instructions <a name="osx"></a>
+### 3.3 Install Engine Version
+
+### 3.4 Install RPG Creator Kit Project
 
 ## 4. Workshop: RPG Creator Kit <a name="workshops"></a>
 
