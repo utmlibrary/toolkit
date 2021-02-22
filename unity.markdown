@@ -35,9 +35,20 @@ As you can imagine, the Unity Editor can be quite useful if you are interested i
 There are some fantastic resources out there to learn how to use the Unity Editor and to create engaging storytelling experiences. The most important resource to consult is the [Unity Learn Platform](https://learn.unity.com/) which provides a rich catalogue of live and asynchronous workshops to explore the Editor's functionalities, plugins, and assets. The [RPG Creator Kit](https://learn.unity.com/project/creator-kit-rpg) tutorial provided by Unity Learn will be of particular value as large parts of the tutorial are used or adapted for this workshop. A final resource to consult is the [*Elements of Game Design*](https://mitpress.mit.edu/books/elements-game-design) by Robert Zubek. The text is a very accessible and short volume on game design and will be of particular interest for creators looking to learn more about game design.
 
 ### 2.1 Tutorials <a name="tutorials"></a>
-In addition to the important resources outlined above, there are a number of tutorials out there that assist you in becoming a more proficient game designer with the Unity Editor. While there are dozens, if not hundreds, of excellent tutorials out there, these are some of resources I found to be most useful in gaining proviciency in making Unity-based games:
+In addition to the important resources outlined above, there are a number of tutorials out there that can assist you in becoming a more proficient game designer with the Unity Editor. While there are dozens, if not hundreds, of excellent tutorials out there, these are some of resources I found to be most useful in gaining proviciency in making Unity-based games:
 
+[Unity Learn: Getting Started with Unity](https://learn.unity.com/course/getting-started-with-unity)  
+[edX: Introduction to Video Game Development with Unity](https://www.edx.org/course/introduction-to-video-game-development-with-unity)  
+[Coursera: Game Design and Development with Unity 2020 Specialization](https://www.coursera.org/specializations/game-design-and-development)
+[Bracekeys YouTube: Unity Beginner Tutorials](https://www.youtube.com/playlist?list=PLPV2KyIb3jR5QFsefuO2RlAgWEz6EvVi6)  
 []()
+
+If you're wanting to get stuck into a specific genre of game design through a project-based learning approach, I'd recommend the following tutorials:
+
+[]()  
+[]()  
+[]()  
+[]()  
 []()
 
 ### 2.1 Copyright <a name="copyright"></a>
