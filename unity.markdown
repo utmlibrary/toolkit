@@ -12,7 +12,7 @@ permalink: /workshops/unity/
 3. [Setup](#setup)  
     3.1 [Install Unity Hub](#unityhub)  
     3.2 [Create Account](#unityaccount)  
-    3.3 [Install Engine Version](#unityversion)  
+    3.3 [Install Unity Editor Version](#unityversion)  
     3.4 [Install RPG Creator Kit Project](#unityproject)  
 4. [Workshop: RPG Creator Kit](#workshops)  
     4.1 [The Editor Interface](#warmup)  
@@ -44,7 +44,7 @@ In addition to the important resources outlined above, there are a number of tut
 [Bracekeys YouTube: Unity Beginner Tutorials](https://www.youtube.com/playlist?list=PLPV2KyIb3jR5QFsefuO2RlAgWEz6EvVi6)  
 [LinkedIn Learning: Unity 3D 2019 Essential Training](https://www.linkedin.com/learning-login/share?account=76812730&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Funity-3d-2019-essential-training%3Ftrk%3Dshare_ent_url%26shareId%3DLL4sq0plT7iEUdBLZYxlnA%253D%253D)
 
-If you're wanting to get stuck into a specific genre of game design through a project-based learning approach, I'd recommend the following tutorials:
+If you want to get stuck into a specific genre of game design through a project-based learning approach, I'd recommend the following tutorials:
 
 [Interactive Fiction: inky plugin for the by Inkle Studio](https://www.inklestudios.com/ink/)  
 [Walkthrough Simulator: First Person Exploration Toolkit by While Fun Games](http://whilefun.com/fpekit)  
@@ -70,13 +70,13 @@ Council of Ministers of Education's [fair dealing decision tool](http://www.fair
 Note, these copyright resources only pertain to the [*Copyright Act*](https://laws-lois.justice.gc.ca/eng/acts/C-42/) for fair dealing in Canada and does not cover copyright in other jurisdictions. For international researchers please consult your own scholarly communication and copyright offices and resources on fair use or fair dealing of copyrighted works in digital research.
 
 ## 3. Setup <a name="setup"></a>
-The Unity Editor operates on Windows, OS X, and Linux operating systems. 
+The Unity Editor operates on Windows, OS X, and Linux operating systems. The simplest way to setup the Unity Editor on your computer is to download the Unity Hub which manages all your projects and installations going forward. From there you can create your Unity account and install the correct version of the Editor to work with the RPG Creator Kit that we will be using in this workshop. 
 
 ### 3.1 Install Unity Hub <a name="unityhub"></a>
 
 ### 3.2 Create Account <a name="unityaccount"></a>
 
-### 3.3 Install Engine Version <a name="unityversion"></a>
+### 3.3 Install Unity Editor Version <a name="unityversion"></a>
 
 ### 3.4 Install RPG Creator Kit Project <a name="unityproject"></a>
 
