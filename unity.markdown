@@ -73,12 +73,18 @@ Note, these copyright resources only pertain to the [*Copyright Act*](https://la
 The Unity Editor operates on Windows, OS X, and Linux operating systems. The simplest way to setup the Unity Editor on your computer is to download the [Unity Hub](https://unity3d.com/get-unity/download) which manages all your projects and installations going forward. From there you can create your [Unity account](https://id.unity.com/en/conversations/01819edd-83df-48e6-91ae-d008a0ef4ed4002f) and install the correct version of the Editor to work with the RPG Creator Kit that we will be using in this workshop. You also have the option to just install a specific version of the Unity Editor. However, the organization of your Unity files can get messy if you decide to work on multiple projects, which may you require you to install multiple versions of the Unity Editor. As such, the recommended setup is the process outlined below.
 
 ### 3.1 Install Unity Hub <a name="unityhub"></a>
+The Unity Hub is a management tool to you can use to manage all of your installations and projects. This includes managing all the components, like plugins, and the various versions of projects you have saved. If you decide to learn other features of Unity or work on new projects, it is likely you will have to install other asset packages and Editor versions. The Unity Hub makes this simple and also informs you if there are any issues with your installations and projects, which may not be obvious if you run multplie projects and versions outside of the Hub.
+
+To install the Unity Hub you can download it from this [link](https://unity3d.com/get-unity/download). Click on the option ```Download Unity Hub```. The corresponding package file for your computer will download. Once downloaded, open the file, read through the Terms of Service, and agree to the Terms. Once agreed, click ```Install``` and open the Unity Hub upon completion. 
 
 ### 3.2 Create Account <a name="unityaccount"></a>
 
+
 ### 3.3 Install Unity Editor Version <a name="unityversion"></a>
 
+
 ### 3.4 Install RPG Creator Kit Project <a name="unityproject"></a>
+
 
 ## 4. Workshop: RPG Creator Kit <a name="workshops"></a>
 
