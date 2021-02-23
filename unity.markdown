@@ -93,7 +93,9 @@ For this workshop, we will be downloading the latest version of the Unity Editor
 
 To download the current version of the Unity Editor that functions with the RPG Creator Kit Project, click on the ```Learn``` tab and scroll down through ```Projects``` until you reach the ```Creator Kit: RPG``` project. Click on the ```Creator Kit: RPG``` and a new window will open. You will notice that the window will have a message that says something like ```You need to install Unity XXXX.X to open this project``` (XXXX.X referring to the current version of the Unity Editor that supports the Creator Kit). At the time of writing this was Unity 2020.2. You will also notice an option to ```Install Unity XXXX.X```. Click on ```Install Unity XXXX.X```.
 
-A new window will open that will ask you to add modules to this version of the Unity Editor. 
+A new window will open that will ask you to add modules to this version of the Unity Editor. You will have the option to add Platforms, Documentation, Language Packs, and Developer Tools. At this point it is recommended that you only select the appropriate developer tools for your system (e.g., Microsoft Visual Studio on PC) and the documentation. The main reason for this is if you select any of the platform options you will have to download additional gigabytes of modules that you do not require for this workshop. You can always go back and install addition modules in the future if you decide to build your game into an application for another system.
+
+Once you have selected the appropriate ```Dev Tools``` and ```Documentation``` you can click next and agree to the Terms and Conditions. Depending on your computers speed, it can take around 2-10 minutes to install the Editor. 
 
 ### 3.4 Install RPG Creator Kit Project <a name="unityproject"></a>
 
