@@ -44,7 +44,7 @@ In addition to the important resources outlined above, there are a number of tut
 [Bracekeys YouTube: Unity Beginner Tutorials](https://www.youtube.com/playlist?list=PLPV2KyIb3jR5QFsefuO2RlAgWEz6EvVi6)  
 [LinkedIn Learning: Unity 3D 2019 Essential Training](https://www.linkedin.com/learning-login/share?account=76812730&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Funity-3d-2019-essential-training%3Ftrk%3Dshare_ent_url%26shareId%3DLL4sq0plT7iEUdBLZYxlnA%253D%253D)
 
-If you want to get stuck into a specific genre of game design through a project-based learning approach, I'd recommend the following tutorials:
+If you want to get stuck into a specific genre of game design through a project-based learning approach in Unity, I'd recommend the following tutorials:
 
 [Interactive Fiction: inky plugin for the by Inkle Studio](https://www.inklestudios.com/ink/)  
 [Walkthrough Simulator: First Person Exploration Toolkit by While Fun Games](http://whilefun.com/fpekit)  
@@ -102,7 +102,9 @@ Once you have installed the the appropriate Unity Editor, we can then install th
 
 The first time you open a project it can take several minutes for the project to configure with your version of the Unity Editor. This is nothing to be concerned about as it can potentially take 10 minutes to open, depending on your computers RAM speed (i.e., the memory processor that determines how fast your applications runs applications and completes processes, like rendering a model in Autodesk's Maya or exporting an image in Adobe's Photoshop). Any subsequent time you open your project the process will be much faster.
 
-Before we begin the workshop there is another important step we need to take. This step will sound very unintuitive, but necessary if you want to save any work you want to save in your Unity project. First you will need to close the Unity Editor by selecting the ```Quit``` option in the menu system. At this point you will be prompted to ```Keep project?```. To save your project select ```Keep Project``` and then decide where to save your project and click ```Save```. You may want to give your project a name so it is easy to find. Now, go back into the Unity Hub and go to the ```Projects``` tab and click ```Add```. Remember where you saved your project and click ```Open``` on your project folder. The project will then appear in the ```Projects``` tab within the Hub. You will notice that it provides you with the ```Project Name```, ```Unity Version```, ```Target Platform```, and ```Last Modified```.
+Before we begin the workshop there is another important step we need to take. This step will sound very unintuitive, but necessary if you want to save any work you want to save in your Unity project. First you will need to close the Unity Editor by selecting the ```Quit``` option in the menu system. At this point you will be prompted to ```Keep project?```. To save your project select ```Keep Project``` and then decide where to save your project and click ```Save```. You may want to give your project a name so it is easy to find. Now, go back into the Unity Hub and go to the ```Projects``` tab and click ```Add```. Remember where you saved your project and click ```Open``` on your project folder. The project will then appear in the ```Projects``` tab within the Hub. You will notice that it provides you with the ```Project Name```, ```Unity Version```, ```Target Platform```, and ```Last Modified```. This feature essentially lets you know how you are managing your project and if there are any technical issues (i.e., you are running the corresponding version of the Editor with the project).
+
+Now that you have save your project and connected it to the Unity Hub, you can now reopen your project and get started with the workshop!
 
 ## 4. Workshop: RPG Creator Kit <a name="workshops"></a>
 
