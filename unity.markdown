@@ -78,7 +78,13 @@ The Unity Hub is a management tool to you can use to manage all of your installa
 To install the Unity Hub you can download it from this [link](https://unity3d.com/get-unity/download). Click on the option ```Download Unity Hub```. The corresponding package file for your computer will download. Once downloaded, open the file, read through the Terms of Service, and agree to the Terms. Once agreed, click ```Install``` and open the Unity Hub upon completion. 
 
 ### 3.2 Create Account <a name="unityaccount"></a>
+Once you have opened the Unity Hub, you will need to create a Unity Account. The main reason you need to do this is because Unity Technologies, the company of Unity's products, will not let you use their services without agreeing to their Terms of Use and Privacy Policy. For example, you will need an account to download a version of the Unity Editor and you will need an account to download any project packages or assets from the Unity Asset Store, which we will do in this workshop. As such, it is important you do not skip this step as it will cause problems for you in the next two steps.
 
+One of the benefits of having a Unity Account is it will manage your projects, installs, and assets on your computer through the Unity Hub, but it will also keep track of any assets you download or purchase from the Unity Asset Store. This means if you decide to work on your projects on another computer you will not lose assets you have downloaded or purchased in the past.
+
+To create a Unity Account go to this [link](https://id.unity.com/en/conversations/01819edd-83df-48e6-91ae-d008a0ef4ed4002f). You will be given the option to sign-in if you already have a Unity Account, but if this is your first time you will be asked for an Email account, Password, Username, and your Full Name. You will be given the option to read the [Unity Terms of Service](https://unity3d.com/legal/terms-of-service?_ga=2.215215761.706976237.1614087676-1693053554.1614087676) and the [Unity Privacy Policy](https://unity3d.com/legal/privacy-policy?_ga=2.215215761.706976237.1614087676-1693053554.1614087676). Once you have read through the Terms and Policy you are required to check the box before finally creating your account. 
+
+Once you have created your Unity Account you will use your credentials to sign-in to the Unity Hub which you can do by clicking on the avatar icon in the top-right corner of the Hub. When you have successfully signed-in we can install the Unity Editor version for the RPG Creator Kit Project.
 
 ### 3.3 Install Unity Editor Version <a name="unityversion"></a>
 
