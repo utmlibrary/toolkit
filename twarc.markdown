@@ -262,4 +262,4 @@ As you can see, it will only scrape tweets sent by this organization when they t
 ## 5. Final Thoughts <a name="final"></a>
 As you become increasingly comfortable with the command line, you will find twarc a helpful addition to your digital research toolkit. If there is a selection of twitter data that you want to download for text mining and analysis, a quick twarc command will be quicker than scraping the links manually. While this workshop focuses on a few of the commands, a fuller list with quick examples can be found at the [twarc GitHub project](https://github.com/DocNow/twarc).
 
-Here is a [download link](files/scilit2020.jsonl) to an json.l file example of a twarc filter search for tweets on Science Literacy Week in 2020 (#scilit).
+Here is a [download link](files/scilit2020.jsonl) to an jsonl file example of a twarc filter search for tweets on Science Literacy Week in 2020 (#scilit). You can open and view the file with text editor, such as [BBEdit](https://apps.apple.com/us/app/bbedit/id404009241?mt=12) on OSX or [notepad++](https://notepad-plus-plus.org/downloads/) on Windows.
