@@ -10,4 +10,4 @@ Digital Scholarship Technician
 Digital Scholarship & Liaison Librarian
 
 [Chris Young](mailto:daniela.cancilla@utoronto.ca)  
-Librarian and Coordinator, Digital Scholarship, Archives & Special Collections
+Librarian and Head, Collections & Digital Scholarship
