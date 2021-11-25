@@ -11,7 +11,6 @@ permalink: /workshops/
   1.3 [Instagram Data with instagram-scraper](#instagram)  
 2. [Analyze](#analyze)
 3. [Publish](#publish)  
-  3.1 [Game Design with Unity](#unity)  
 
 ## 1. Gather <a name="gathering"></a>
 
@@ -28,6 +27,4 @@ instagram-scraper is a command-line application written in Python that scrapes a
 Coming soon...  
 
 ## 3. Publish <a name="publish"></a>  
-
-### 3.1 Game Design with Unity <a name="unity"></a>  
 Coming soon...
